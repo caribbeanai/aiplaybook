@@ -4,7 +4,7 @@
 
 # The Definitive AI Playbook for LATAMC
 
-**The definitive AI guide for businesses and individuals across Latin America and the Caribbean — evidence-based use cases covering every country and jurisdiction in the region.**
+**The definitive AI guide for businesses and individuals across Latin America and the Caribbean, evidence-based use cases covering every country and jurisdiction in the region.**
 
 *El recurso definitivo de IA para empresas e individuos en toda América Latina y el Caribe.*
 *O guia definitivo de IA para empresas e indivíduos em toda a América Latina e no Caribe.*
@@ -23,9 +23,9 @@
 
 **The Definitive AI Guide for Latin America, The Americas & Multi-Caribbean (LATAMC)**
 
-This is the most comprehensive, evidence-based collection of AI use cases, tools, and implementation guides ever assembled specifically for Latin America and the Caribbean. Covering **every country and jurisdiction** across the region — from Mexico and Brazil to the smallest island territories — this playbook gives businesses, entrepreneurs, government agencies, professionals, and individuals the practical AI knowledge they need to compete and thrive in the modern economy.
+This is the most comprehensive, evidence-based collection of AI use cases, tools, and implementation guides ever assembled specifically for Latin America and the Caribbean. Covering **every country and jurisdiction** across the region, from Mexico and Brazil to the smallest island territories, this playbook gives businesses, entrepreneurs, government agencies, professionals, and individuals the practical AI knowledge they need to compete and thrive in the modern economy.
 
-Whether you are a **farmer in Jamaica**, a **fintech founder in Colombia**, a **teacher in Brazil**, a **public servant in Trinidad**, or an **entrepreneur in Mexico** — this guide has actionable, evidence-based AI use cases built for your reality.
+Whether you are a **farmer in Jamaica**, a **fintech founder in Colombia**, a **teacher in Brazil**, a **public servant in Trinidad**, or an **entrepreneur in Mexico**, this guide has actionable, evidence-based AI use cases built for your reality.
 
 ---
 
@@ -33,9 +33,9 @@ Whether you are a **farmer in Jamaica**, a **fintech founder in Colombia**, a **
 
 **La Guía Definitiva de Inteligencia Artificial para América Latina y el Caribe**
 
-Esta es la colección más completa y basada en evidencia de casos de uso de IA, herramientas y guías de implementación jamás reunida específicamente para América Latina y el Caribe. Cubre **todos los países y jurisdicciones** de la región — desde México y Brasil hasta los territorios insulares más pequeños — brindando a empresas, emprendedores, organismos gubernamentales, profesionales e individuos el conocimiento práctico de IA que necesitan para competir y prosperar en la economía moderna.
+Esta es la colección más completa y basada en evidencia de casos de uso de IA, herramientas y guías de implementación jamás reunida específicamente para América Latina y el Caribe. Cubre **todos los países y jurisdicciones** de la región, desde México y Brasil hasta los territorios insulares más pequeños, brindando a empresas, emprendedores, organismos gubernamentales, profesionales e individuos el conocimiento práctico de IA que necesitan para competir y prosperar en la economía moderna.
 
-Ya sea que seas un **agricultor en Jamaica**, un **fundador de fintech en Colombia**, un **maestro en Brasil**, un **servidor público en Trinidad** o un **emprendedor en México** — esta guía tiene casos de uso de IA prácticos y basados en evidencia adaptados a tu realidad.
+Ya sea que seas un **agricultor en Jamaica**, un **fundador de fintech en Colombia**, un **maestro en Brasil**, un **servidor público en Trinidad** o un **emprendedor en México**, esta guía tiene casos de uso de IA prácticos y basados en evidencia adaptados a tu realidad.
 
 ---
 
@@ -43,9 +43,9 @@ Ya sea que seas un **agricultor en Jamaica**, un **fundador de fintech en Colomb
 
 **O Guia Definitivo de Inteligência Artificial para a América Latina e o Caribe**
 
-Esta é a coleção mais abrangente e baseada em evidências de casos de uso de IA, ferramentas e guias de implementação já reunidos especificamente para a América Latina e o Caribe. Cobrindo **todos os países e jurisdições** da região — do México e Brasil até os menores territórios insulares — este playbook oferece a empresas, empreendedores, agências governamentais, profissionais e indivíduos o conhecimento prático de IA de que precisam para competir e prosperar na economia moderna.
+Esta é a coleção mais abrangente e baseada em evidências de casos de uso de IA, ferramentas e guias de implementação já reunidos especificamente para a América Latina e o Caribe. Cobrindo **todos os países e jurisdições** da região, do México e Brasil até os menores territórios insulares, este playbook oferece a empresas, empreendedores, agências governamentais, profissionais e indivíduos o conhecimento prático de IA de que precisam para competir e prosperar na economia moderna.
 
-Seja você um **agricultor na Jamaica**, um **fundador de fintech na Colômbia**, um **professor no Brasil**, um **servidor público em Trinidad** ou um **empreendedor no México** — este guia tem casos de uso de IA práticos e baseados em evidências construídos para a sua realidade.
+Seja você um **agricultor na Jamaica**, um **fundador de fintech na Colômbia**, um **professor no Brasil**, um **servidor público em Trinidad** ou um **empreendedor no México**, este guia tem casos de uso de IA práticos e baseados em evidências construídos para a sua realidade.
 
 ---
 
@@ -53,9 +53,9 @@ Seja você um **agricultor na Jamaica**, um **fundador de fintech na Colômbia**
 
 **Le Guide Définitif de l'Intelligence Artificielle pour l'Amérique Latine et les Caraïbes**
 
-Il s'agit de la collection la plus complète et fondée sur des preuves de cas d'utilisation de l'IA, d'outils et de guides de mise en œuvre jamais assemblés spécifiquement pour l'Amérique latine et les Caraïbes. Couvrant **tous les pays et juridictions** de la région — du Mexique et du Brésil jusqu'aux plus petits territoires insulaires — ce guide donne aux entreprises, aux entrepreneurs, aux agences gouvernementales, aux professionnels et aux particuliers les connaissances pratiques en IA dont ils ont besoin pour être compétitifs et prospérer dans l'économie moderne.
+Il s'agit de la collection la plus complète et fondée sur des preuves de cas d'utilisation de l'IA, d'outils et de guides de mise en œuvre jamais assemblés spécifiquement pour l'Amérique latine et les Caraïbes. Couvrant **tous les pays et juridictions** de la région, du Mexique et du Brésil jusqu'aux plus petits territoires insulaires, ce guide donne aux entreprises, aux entrepreneurs, aux agences gouvernementales, aux professionnels et aux particuliers les connaissances pratiques en IA dont ils ont besoin pour être compétitifs et prospérer dans l'économie moderne.
 
-Que vous soyez un **agriculteur en Jamaïque**, un **fondateur de fintech en Colombie**, un **enseignant au Brésil**, un **fonctionnaire à Trinité** ou un **entrepreneur au Mexique** — ce guide propose des cas d'utilisation de l'IA pratiques et fondés sur des preuves adaptés à votre réalité.
+Que vous soyez un **agriculteur en Jamaïque**, un **fondateur de fintech en Colombie**, un **enseignant au Brésil**, un **fonctionnaire à Trinité** ou un **entrepreneur au Mexique**, ce guide propose des cas d'utilisation de l'IA pratiques et fondés sur des preuves adaptés à votre réalité.
 
 ---
 
@@ -63,9 +63,9 @@ Que vous soyez un **agriculteur en Jamaïque**, un **fondateur de fintech en Col
 
 **Gid Definitif sou Entèlijans Atifisyèl pou Amerik Latin ak Karayib**
 
-Sa a se koleksyon ki pi konplè epi ki baze sou prèv nan ka itilizasyon AI, zouti, ak gid aplikasyon ki te janm rasanble espesyalman pou Amerik Latin ak Karayib. Li kouvri **tout peyi ak jiridiksyon** nan rejyon an — soti Meksik ak Brezil rive nan pi piti teritwa zile yo — sa a bay biznis, antreprenè, ajans gouvènman, pwofesyonèl ak endividi konesans pratik AI yo bezwen pou yo ka konpetisyon ak pwospere nan ekonomi modèn lan.
+Sa a se koleksyon ki pi konplè epi ki baze sou prèv nan ka itilizasyon AI, zouti, ak gid aplikasyon ki te janm rasanble espesyalman pou Amerik Latin ak Karayib. Li kouvri **tout peyi ak jiridiksyon** nan rejyon an, soti Meksik ak Brezil rive nan pi piti teritwa zile yo, sa a bay biznis, antreprenè, ajans gouvènman, pwofesyonèl ak endividi konesans pratik AI yo bezwen pou yo ka konpetisyon ak pwospere nan ekonomi modèn lan.
 
-Kèlkeswa ou se yon **agrikilti nan Jamayik**, yon **fondatè fintech nan Kolonbi**, yon **pwofesè nan Brezil**, yon **fonksyonè piblik nan Trinite** oswa yon **antreprenè nan Meksik** — gid sa a gen ka itilizasyon AI pratik ak baze sou prèv ki bati pou reyalite ou.
+Kèlkeswa ou se yon **agrikilti nan Jamayik**, yon **fondatè fintech nan Kolonbi**, yon **pwofesè nan Brezil**, yon **fonksyonè piblik nan Trinite** oswa yon **antreprenè nan Meksik**, gid sa a gen ka itilizasyon AI pratik ak baze sou prèv ki bati pou reyalite ou.
 
 ---
 
@@ -73,9 +73,9 @@ Kèlkeswa ou se yon **agrikilti nan Jamayik**, yon **fondatè fintech nan Kolonb
 
 **De Definitieve AI-Gids voor Latijns-Amerika en het Caribisch Gebied**
 
-Dit is de meest uitgebreide, op bewijs gebaseerde verzameling van AI-gebruiksscenario's, tools en implementatiegidsen die ooit specifiek voor Latijns-Amerika en het Caribisch gebied is samengesteld. Met **elk land en elke jurisdictie** in de regio — van Mexico en Brazilië tot de kleinste eilandgebieden — geeft dit playbook bedrijven, ondernemers, overheidsinstanties, professionals en individuen de praktische AI-kennis die ze nodig hebben om te concurreren en te gedijen in de moderne economie.
+Dit is de meest uitgebreide, op bewijs gebaseerde verzameling van AI-gebruiksscenario's, tools en implementatiegidsen die ooit specifiek voor Latijns-Amerika en het Caribisch gebied is samengesteld. Met **elk land en elke jurisdictie** in de regio, van Mexico en Brazilië tot de kleinste eilandgebieden, geeft dit playbook bedrijven, ondernemers, overheidsinstanties, professionals en individuen de praktische AI-kennis die ze nodig hebben om te concurreren en te gedijen in de moderne economie.
 
-Of u nu een **boer op Jamaica** bent, een **fintech-oprichter in Colombia**, een **leraar in Brazilië**, een **ambtenaar op Trinidad** of een **ondernemer in Mexico** — deze gids heeft praktische, op bewijs gebaseerde AI-gebruiksscenario's die zijn gebouwd voor uw realiteit.
+Of u nu een **boer op Jamaica** bent, een **fintech-oprichter in Colombia**, een **leraar in Brazilië**, een **ambtenaar op Trinidad** of een **ondernemer in Mexico**, deze gids heeft praktische, op bewijs gebaseerde AI-gebruiksscenario's die zijn gebouwd voor uw realiteit.
 
 ---
 
@@ -191,13 +191,13 @@ Understanding risks is as important as leveraging opportunities. See our compreh
 
 ## Claude Skills for Small Businesses
 
-[View the complete Claude Skills Guide](./skills/README.md) — 50+ practical skills specifically designed for Caribbean and Latin American small business owners.
+[View the complete Claude Skills Guide](./skills/README.md), 50+ practical skills specifically designed for Caribbean and Latin American small business owners.
 
 ---
 
 ## Country AI Rankings
 
-[Coming Soon](./rankings/README.md) — A comprehensive ranking of Caribbean and Latin American countries by AI readiness, adoption, and impact.
+[Coming Soon](./rankings/README.md), A comprehensive ranking of Caribbean and Latin American countries by AI readiness, adoption, and impact.
 
 ---
 
@@ -216,7 +216,7 @@ Understanding risks is as important as leveraging opportunities. See our compreh
 
 ## About the Creator
 
-[Learn about Adrian Dunkley](./ABOUT.md) — Physicist, AI Entrepreneur, Founder of the first AI company in the Caribbean, and the region's leading authority on Artificial Intelligence for economic development.
+[Learn about Adrian Dunkley](./ABOUT.md), Physicist, AI Entrepreneur, Founder of the first AI company in the Caribbean, and the region's leading authority on Artificial Intelligence for economic development.
 
 ---
 
@@ -246,4 +246,4 @@ Key risks include data privacy, algorithmic bias against underrepresented langua
 ---
 
 *Last Updated: March 2026 | Created by Adrian Dunkley | maestrosai.com | ceo@maestrosai.com*
-*Fair Use — Educational and Professional Development Resource*
+*Fair Use, Educational and Professional Development Resource*
