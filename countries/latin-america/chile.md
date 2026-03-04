@@ -10,461 +10,429 @@
 
 | Indicador | Dato |
 |-----------|------|
-| Población | 19 millones |
-| PIB | US$ 340 mil millones |
-| PIB per cápita | ~US$ 17,500 |
+| Población | 19.5 millones |
+| PIB | US$ 360 mil millones |
+| PIB per cápita | ~US$ 18,500 (mayor en LatAm) |
 | Moneda | Peso Chileno (CLP) |
 | Idioma | Español |
 | Capital | Santiago |
-| Hubs tech | Santiago (Zona Apoquindo), Valparaíso, Concepción |
-| Exportaciones | Cobre, litio, salmón, cerezas, vino, celulosa, harina de pescado |
-| Unicornios | NotCo, Betterfly, Fintual, Buk, Houm, Altivia |
-| Inversión minera | US$ 10.000M anuales en exploración y operación |
+| Hubs tech | Santiago, Valparaíso, Concepción |
+| Exportaciones | Cobre, litio, vino, salmón, fruta, celulosa |
+| TLCs vigentes | 30+ tratados de libre comercio |
+| Unicornios / escaleups | NotCo, Cornershop, Betterfly, Fintual, Caja Vecina |
+| Marco IA | Política Nacional de Inteligencia Artificial (2021, actualizada 2024) |
 
 ---
 
-## Sector 1: Minería — Cobre, Litio y SERNAGEOMIN
+## Sector 1: Minería — Cobre, Litio y Pequeña Minería
 
-### Caso de Uso 1: Codelco — Optimización de Operaciones de Chancado
-**Rol**: Ingeniero de Procesos / Jefe de Turno / Analista de Confiabilidad
-**Herramienta de IA**: Claude / ChatGPT Enterprise
-
-**Estructura del Prompt**:
-```
-Soy ingeniero de procesos en una división de Codelco (ej. Chuquicamata / El Teniente / Andina / Salvador / Ministro Hales).
-Circuito: chancado primario/secundario/terciario — SAG/molienda de bolas.
-Mineral: pórfido cuprífero, ley media [X]% Cu, dureza Bond [X] kWh/t.
-Problema actual: [baja disponibilidad de chancador / taponamiento de tolvas / variabilidad de ley / consumo energético elevado].
-Producción objetivo: [X] toneladas métricas de cobre fino por día.
-Instrumentación disponible: sensores de presión, torque, amperaje, densidad de pulpa, análisis granulométrico (P80).
-
-Genera un plan de optimización que incluya:
-1. Indicadores KPI críticos para chancado: disponibilidad, utilización, throughput (t/h), consumo específico (kWh/t)
-2. Causa raíz del problema actual usando análisis fishbone — proceso vs equipo vs operación vs material
-3. Estrategia de mantenimiento predictivo: umbrales de alerta por vibración (ISO 10816), temperatura de rodamientos
-4. Protocolo de muestreo granulométrico: frecuencia, puntos de muestreo, análisis P80/P50
-5. Plan de mejora de disponibilidad: MTBF, MTTR — comparación con benchmarks internacionales (AMEC, WMC)
-6. Normativa SERNAGEOMIN aplicable: DS 132 (Reglamento de Seguridad Minera) — procedimientos críticos
-7. Informe para la Gerencia General con indicadores financieros: costo por tonelada molida, impacto en producción anual
-8. Estándares Codelco de sostenibilidad: consumo hídrico (L/t), eficiencia energética (kWh/t Cu fino)
-```
-**Beneficios**: Reducción de 8-15% en costo por tonelada; incremento de disponibilidad de 85% a 92%; ahorro energético equivalente a US$ 2-4M anuales por división
-
----
-
-### Caso de Uso 2: Litio Atacama — SQM y Albemarle, Cumplimiento Ambiental y Optimización
-**Rol**: Superintendente de Operaciones / Especialista Ambiental / Gerente de Relaciones Comunitarias
+### Caso de Uso 1: Codelco — Optimización de Mina Rajo Abierto y Subterránea
+**Rol**: Ingeniero de minas / Planificador de producción / Gerente de operaciones Codelco
 **Herramienta de IA**: Claude
 
 **Estructura del Prompt**:
 ```
-Trabajo en operaciones de litio en el Salar de Atacama para [SQM / Albemarle / empresa de exploración].
-Proceso: extracción de salmuera — pozas de evaporación — planta de carbonato de litio (Li₂CO₃) / hidróxido de litio (LiOH).
-Ley de salmuera: [X] g/L Li, [X] g/L K.
-Cuotas de extracción CORFO: [X] toneladas Li contenido/año según contrato vigente.
-Monitoreo ambiental: nivel freático del acuífero, flamingos (flamenco chileno, andino, de James — CONAF), vegetación halófita.
-Comunidades: Atacameños (likan antai) — Consejo de Pueblos Atacameños — proceso de consulta previa (Convenio 169 OIT).
+Trabajo en una operación minera de cobre en [Chuquicamata/El Teniente/Andina/El Salvador/Radomiro Tomic].
+Tipo de mina: [rajo abierto/subterránea/combinada]. Ley de mineral: [X% Cu].
+Producción objetivo: [X toneladas métricas de cobre fino/año].
+Equipamiento: [camiones 400T Komatsu/Caterpillar/perforadoras Sandvik/Atlas Copco].
+Sistema de despacho: [Wenco/Dispatch/Jigsaw]. Procesamiento: [flotación/lixiviación-SX-EW].
+Desafíos actuales: [leyes decrecientes/mayor profundidad/eficiencia energética/agua].
 
-Desarrolla los siguientes documentos y estrategias:
-1. Plan de monitoreo ambiental: protocolo de medición de niveles de salmuera (piezómetros), frecuencia reportes a CORFO/SMA
-2. Informe de cumplimiento RCA: indicadores de la Resolución de Calificación Ambiental — formato requerido por SMA
-3. Estrategia de relacionamiento con comunidades atacameñas: protocolo de consulta previa según DS 66, actas de reunión
-4. Plan de eficiencia hídrica: reducción de pérdidas por evaporación, recirculación de salmuera agotada
-5. Roadmap tecnológico: extracción de litio por adsorción directa (DLE) — ventajas ambientales vs proceso actual
-6. Análisis de mercado: carbonato vs hidróxido de litio — precio spot LME, contratos a largo plazo con BMW/Tesla/CATL
-7. Reporte de sostenibilidad ESG: métricas SASB para metales y minería — biodiversidad, agua, comunidades
-8. Plan de gestión de residuos: disposición de cloruro de magnesio (MgCl₂) — normativa DS 148 residuos peligrosos
+Optimiza la operación minera con IA:
+- Planificación de producción: modelo de bloques, secuencia de extracción, optimización de pit (Whittle)
+- Despacho de camiones con IA: algoritmos de asignación en tiempo real, reducción de tiempos muertos
+- Mantenimiento predictivo: análisis de vibraciones en camiones/correas, predicción de fallas antes de parada
+- Perforación y tronadura: diseño de malla óptima por tipo de roca, factor de potencia, fragmentación
+- Procesamiento metalúrgico: control de planta de flotación con ML — ajuste de reactivos en tiempo real
+- Gestión del agua: uso de agua de mar desalada, recirculación, cumplimiento DGA (Dirección General de Aguas)
+- Energía: curva de demanda eléctrica, peak shaving, PPAs de energía solar para operación
+- Seguridad: detección de fatiga con cámaras IA, zonificación de riesgos, análisis de incidentes
+- Medio ambiente: monitoreo de polvo PM2.5/PM10, control de ruido, SMA (Superintendencia del Medio Ambiente)
+- Reporte ESG: métricas GRI/ICMM, huella de carbono scope 1/2/3, objetivos de descarbonización Codelco
 ```
-**Beneficios**: Reducción de riesgos regulatorios, mejora de relaciones comunitarias, aumento de 20% en eficiencia de recuperación de litio
+**Beneficios**: Reducción de costos operativos C1, mejora de recuperación metalúrgica, cumplimiento ambiental y ESG
 
 ---
 
-### Caso de Uso 3: SERNAGEOMIN — Gestión de Seguridad Minera y Fiscalización
-**Rol**: Fiscal Minero / Jefe de Seguridad / Experto en Prevención de Riesgos
+### Caso de Uso 2: SQM — Litio del Salar de Atacama
+**Rol**: Gerente de operaciones SQM / Ingeniero de procesos / Analista de mercado litio
 **Herramienta de IA**: Claude
 
 **Estructura del Prompt**:
 ```
-Soy [fiscal de SERNAGEOMIN / jefe de seguridad] responsable de fiscalizar [faena minera subterránea / rajo abierto / planta de procesos] en [Región de Antofagasta / Atacama / O'Higgins / Coquimbo].
-Faena: [nombre], categoría [A/B/C] según DS 132.
-Personal: [X] trabajadores propios + [X] contratistas. Turno: [8/12] horas.
-Accidente reciente / near miss: [descripción del evento].
-Sistema de gestión: [ISO 45001 / OHSAS 18001 / sistema corporativo Codelco SIGLO XXI].
+Trabajo en el negocio de litio del Salar de Atacama (Región de Antofagasta).
+Contrato: SQM-CORFO (actualizado 2018) — producción hasta 2030.
+Productos: carbonato de litio (Li2CO3) / hidróxido de litio (LiOH).
+Capacidad actual: [X toneladas LCE/año]. Plan de expansión: [X toneladas].
+Clientes: fabricantes de baterías EV [Tesla/CATL/Panasonic/LG Energy Solution].
+Precio spot litio: USD [X]/tonelada. Precio contrato largo plazo: USD [X]/tonelada.
 
-Elabora los siguientes documentos según DS 132 Reglamento de Seguridad Minera:
-1. Investigación de accidente/incidente: árbol de causas (método ICAM o Tripod Beta) — formulario SERNAGEOMIN
-2. Plan de acción correctiva: responsables, plazos, indicadores de cierre — formato aceptado por SERNAGEOMIN
-3. PETRA (Permiso Escrito para Trabajo de Alto Riesgo): trabajos en altura, espacios confinados, energías peligrosas
-4. Análisis de Riesgos de Tareas (ART): para las 10 tareas críticas de la faena
-5. Plan de preparación y respuesta ante emergencias: incendio, derrumbe, escape de gases (CO, H₂S, NOx)
-6. Programa de control de salud ocupacional: ruido (DS 594), polvo de sílice, vibraciones cuerpo entero
-7. Indicadores de desempeño en seguridad: TRIFR, LTIFR, SIF — benchmarks industria chilena
-8. Reporte trimestral SERNAGEOMIN: formato XML sistema PSIS (Portal de Seguridad e Información Sectorial)
+Desarrolla estrategia integral para el negocio de litio:
+- Optimización de extracción: modelos de evaporación solar, control de salmuera, climatología Atacama
+- Calidad de producto: especificaciones Li2CO3 para baterías (grado battery vs técnico), control analítico
+- Mercado global: ciclo de precios del litio (boom-bust), cómo estructurar contratos de largo plazo
+- Relación con Estado chileno: acuerdo CORFO, royalties, metas de producción, política litio Chile 2023
+- Rol CODELCO-litio: alianza estratégica anunciada, posible integración — análisis de impacto
+- DLE (Direct Lithium Extraction): tecnología en piloto, ventajas vs evaporación, cronograma comercial
+- Agua y comunidades: Convenio 169 OIT, comunidades atacameñas, monitoreo de acuíferos
+- Diversificación productos: manufacturar cátodos en Chile — propuesta de valor para atraer inversión
+- Portafolio aguas arriba: yodo, potasio, sulfato de manganeso — sinergias en el salar
+- Reporte de sostenibilidad: estándares IRMA (Initiative for Responsible Mining Assurance), GRI Minería
 ```
-**Beneficios**: Cumplimiento regulatorio completo; reducción de 40% en tiempo de elaboración de informes; disminución de multas y suspensiones
+**Beneficios**: Posicionamiento en cadena de valor de baterías, gestión de relaciones comunitarias, optimización de precio y volumen
 
 ---
 
-### Caso de Uso 4: Exploración Minera — Informes Geológicos y Due Diligence
-**Rol**: Geólogo Jefe / Gerente de Exploración / Analista de Recursos
-**Herramienta de IA**: Claude / Copilot
-
-**Estructura del Prompt**:
-```
-Soy geólogo en proyecto de exploración de [cobre / oro / plata / litio / molibdeno] en [región de Chile].
-Tipo de depósito: [pórfido cuprífero / IOCG / veta epitermal / salar].
-Etapa: [prospección / exploración avanzada / pre-factibilidad].
-Datos disponibles: [X] metros de sondaje, [X] muestras de roca / suelo / sedimento de quebrada.
-Software: Leapfrog Geo / Datamine / Vulcan / ArcGIS.
-Código de reporte: [JORC 2012 / NI 43-101 / SME Guide].
-
-Apóyame en:
-1. Informe técnico de exploración: resumen ejecutivo, geología regional, geología local, resultados de sondaje — formato SERNAGEOMIN
-2. Estimación preliminar de recursos (Inferred Resources): metodología kriging ordinario vs inverso de la distancia — justificación
-3. Control de calidad datos (QAQC): inserción de estándares, blancos y duplicados — análisis de sesgo con QA Charts
-4. Informe de perforación para Directorio: avance mensual, costo por metro, interpretación geológica — audiencia no técnica
-5. Proceso de concesiones mineras: pedimento, manifestación, mensura — plazos y costos según Código de Minería
-6. Permiso de exploración SERNAGEOMIN: DGA para uso de agua en sondajes, DAA
-7. Comunicado de prensa (NR): resultados de sondaje — lenguaje técnico para inversionistas TSX/NYSE
-8. Modelo conceptual del depósito: hipótesis genética, vectores de mineralización, próximas áreas objetivo
-```
-**Beneficios**: Reducción de 50% en tiempo de elaboración de informes técnicos; cumplimiento de estándares internacionales de reporte
-
----
-
-## Sector 2: Acuicultura del Salmón
-
-### Caso de Uso 5: Salmonicultura — Gestión Sanitaria y Cumplimiento SERNAPESCA
-**Rol**: Veterinario Acuícola / Jefe de Producción / Gerente Técnico
+### Caso de Uso 3: Pequeña Minería — ENAMI y Pirquineros
+**Rol**: Pirquinero / Pequeño minero / Técnico ENAMI
 **Herramienta de IA**: Claude
 
 **Estructura del Prompt**:
 ```
-Soy veterinario acuícola en empresa salmonera ([Mowi / Cermaq / AquaChile / Salmones Camanchaca / Blumar]) en [Región de Los Lagos / Aysén / Magallanes].
-Centro de cultivo: [nombre], código SERNAPESCA [X]. Especie: [Salmo salar / Oncorhynchus mykiss / Salvelinus alpinus].
-Biomasa actual: [X] toneladas en [X] jaulas de [X] metros de diámetro.
-Problema sanitario actual: [SRS (Piscirickettsia salmonis) / Caligus rogercresseyi (piojo de mar) / CMS / AGD / BKD].
-Plan sanitario vigente: [X] tratamientos autorizados en el período.
+Soy [pirquinero/pequeño minero] en [Región de Atacama/Coquimbo/Valparaíso].
+Mineral: [oro/cobre/plata]. Método de extracción: [artesanal/semi-mecanizado].
+Producción mensual: [X toneladas de mineral]. Ley estimada: [X g/t Au o X% Cu].
+Relación con ENAMI: [entrego mineral a planta de ENAMI en [ciudad]].
+Organización: [individual/Cooperativa Minera — CORMI].
 
-Desarrolla plan de manejo sanitario integral:
-1. Diagnóstico diferencial: síntomas, lesiones macroscópicas, diagnóstico molecular PCR — protocolo de muestreo SERNAPESCA
-2. Protocolo de tratamiento: dosis, duración, tiempo de retiro — medicamentos registrados SAG (antibióticos: florfenicol, oxitetraciclina)
-3. Gestión de Caligus: monitoreo quincenal — umbral de tratamiento (3 hembras ovígeras/pez) — baños de agua dulce / H₂O₂ / emamectina
-4. Informe SERNAPESCA: formulario de mortalidades (MAS), registro de tratamientos (Sistema Acuícola)
-5. Plan de manejo ambiental: sedimento bajo jaulas — Norma Ambiental DS 320 (límite de sulfuros)
-6. Bienestar animal: Five Domains — indicadores de bienestar — estándares ASC (Aquaculture Stewardship Council)
-7. Programa de vacunación: PD/SRS — protocolo de aplicación intraperitoneal — trazabilidad por lote de smolts
-8. Certificación ASC y GlobalG.A.P.: requisitos, auditorías, acciones correctivas — mercados Europa/EE.UU.
+Ayúdame a mejorar mi operación con ENAMI:
+- Entrega de mineral a ENAMI: proceso de recepción, análisis de ley, liquidación de pago
+- Crédito ENAMI para pequeños mineros: líneas de crédito en insumos/equipamiento, tasas
+- Asistencia técnica ENAMI: servicio de asesoría técnica, análisis de mineral, proyecto de mejora
+- Seguridad: SERNAGEOMIN — estándares de seguridad para pirquinería, permisos de operación
+- Formalización: concesión de explotación/exploración, inscripción CBR (Conservador de Bienes Raíces)
+- Ambiental: EIA simplificada para pequeña minería, manejo de relaves, cierre de faenas
+- Cooperativismo: ventajas de CORMI, economías de escala, acceso a financiamiento conjunto
+- Mecanización: subsidios CORFO para mecanización de pequeña minería — postulación
+- Precio del metal: London Metal Exchange, ajuste ENAMI — cómo maximizar el precio de liquidación
+- Diversificación: gemas semipreciosas en zona norte — lapislázuli, atacamita — mercado artesanal
 ```
-**Beneficios**: Reducción de mortalidades en 25-35%; cumplimiento total SERNAPESCA; acceso a mercados premium con certificación
+**Beneficios**: Mayor precio de liquidación, acceso a crédito, formalización, cumplimiento SERNAGEOMIN
 
 ---
 
-## Sector 3: Exportación de Frutas — Cerezas, Arándanos y Uvas
+## Sector 2: Acuicultura Salmonera
 
-### Caso de Uso 6: Exportación de Cerezas — Temporada y Logística con China
-**Rol**: Gerente de Exportaciones / Trader / Encargado de Postcosecha
-**Herramienta de IA**: Claude / ChatGPT
-
-**Estructura del Prompt**:
-```
-Soy exportador de cerezas chilenas con temporada [noviembre-enero]. Variedades: [Regina / Lapins / Sweetheart / Bing / Santina].
-Producción: [X] toneladas de cerezas frescas. Calidad: Cat. 1 (calibre >28mm), Cat. 2 (24-28mm).
-Destino principal: China (85% de exportaciones chilenas de cereza).
-Transporte: [marítimo Shanghai/Qingdao/Tianjin — 22-24 días / aéreo — 30 horas].
-Cadena de frío: pre-frío en packing, contenedores CA (atmósfera controlada: 5% CO₂, 2% O₂), T° -0.5°C a +0.5°C.
-Entidad reguladora: SAG — Protocolo Fitosanitario bilateral Chile-China (plagas cuarentenarias: Ceratitis capitata).
-
-Crea plan de exportación para la temporada:
-1. Calendario de embarques: ventanas óptimas por variedad — correlación con precios en mercado chino (Enero es temporada alta)
-2. Protocolo SAG: certificado fitosanitario, declaración de plaguicidas (residuos LMR — MRL en China), inspección de campo
-3. Gestión de cadena de frío: especificaciones técnicas CA — monitoreo remoto de temperatura en contenedor (data loggers)
-4. Análisis de precios en China: plataforma JD.com / WeChat — precio por caja 5kg en RMB — conversión y margen bruto
-5. Documentación de exportación: Packing List, Commercial Invoice, Bill of Lading, Phytosanitary Certificate, Certificado de Origen TLC Chile-China
-6. Protocolo de reclamaciones: daños en destino — evidencia fotográfica, seguro de carga, proceso de claim con importador
-7. Estrategia de diversificación: mercados alternativos (India, Vietnam, Tailandia) — requisitos de acceso fitosanitario
-8. Análisis de temporada: comparación precio FOB Valparaíso vs año anterior — impacto de tipo de cambio CLP/USD
-```
-**Beneficios**: Optimización de ventanas de embarque, reducción de pérdidas postcosecha de 8% a 3%, mejora de márgenes FOB en 15%
-
----
-
-## Sector 4: Startups y Ecosistema de Innovación
-
-### Caso de Uso 7: Start-Up Chile y CORFO — Postulación a Fondos de Emprendimiento
-**Rol**: Emprendedor / Fundador de Startup / Jefe de Proyecto
+### Caso de Uso 4: Salud de Peces — Caligus, SRS, ISA y Bienestar Animal SERNAPESCA
+**Rol**: Médico veterinario acuícola / Gerente de sitio salmonero / Jefe de sanidad
 **Herramienta de IA**: Claude
 
 **Estructura del Prompt**:
 ```
-Soy fundador de una startup [deeptech / agritech / fintech / healthtech / cleantech] en Chile.
-Empresa: [nombre]. Etapa: [idea / MVP / tracción / escala].
-Equipo: [X] cofundadores — background [técnico / comercial / científico].
-Tracción actual: [X] usuarios / [X] clientes / MRR US$ [X] / cartas de intención.
-Problema que resuelve: [descripción en 2 líneas].
-Fondo al que postulo: [Build — hasta $20M CLP / Scale — hasta $60M CLP / Ignite — investigadores / Growth — startups globales].
+Trabajo en salud de peces en centros de cultivo salmonero en [Los Lagos/Aysén/Magallanes].
+Especie: [Salmón Atlántico/Trucha Arcoíris/Coho]. Biomasa: [X toneladas].
+Problemas sanitarios actuales: [Caligus/SRS (Piscirickettsiosis)/ISA (Anemia Infecciosa del Salmón)/catarata].
+Densidad de cultivo: [X kg/m3]. Tipo de jaula: [circular/cuadrada/semi-sumergible].
+Tratamientos: [azametifos/deltametrina/antibióticos (florfenicol/oxitetraciclina)].
+Programas SERNAPESCA: [Programa Sanitario Específico de Caligidosis — PSEC].
 
-Ayúdame a estructurar mi postulación a Start-Up Chile / CORFO:
-1. Pitch deck de 10 slides: problema, solución, mercado (TAM/SAM/SOM), modelo de negocio, tracción, equipo, competencia, roadmap, uso de fondos, cierre
-2. Formulario de postulación CORFO: "descripción del problema" (max 200 palabras) — lenguaje evaluado por comité
-3. Modelo financiero básico: proyecciones a 3 años — supuestos conservadores / base / optimista — métricas SaaS si aplica
-4. Estrategia de propiedad intelectual: patente INAPI, secreto industrial, copyright — qué proteger y cuándo
-5. Plan de uso de fondos CORFO: categorías elegibles (personal, viajes, marketing, desarrollo), rendir cuentas (facturas)
-6. Carta de presentación: por qué Chile, impacto económico y social, potencial de escala regional
-7. Métricas de impacto CORFO: empleos generados, exportaciones potenciales, gender equity en equipo
-8. Preparación para Demo Day Start-Up Chile: elevator pitch 2 minutos, Q&A de inversores internacionales
+Optimiza el programa sanitario del centro:
+- Monitoreo de Caligus: conteo quincenal SERNAPESCA, umbral de tratamiento, reporte en línea
+- Estrategia anti-Caligus: rotación de baños medicados, SLICE (emamectina), sincronización de cosechas
+- Prevención SRS: vacunación en agua dulce (Aquavac IPN/Piscirickettsia), reporte serología
+- Vigilancia ISA: PCR quincenal, zona de vigilancia, protocolo de mortandad elevada SERNAPESCA
+- Bienestar animal: indicadores SERNAPESCA (mortalidad/lesiones/comportamiento), registro en IFOP
+- Antibióticos: uso responsable — reporte registro de tratamientos, periodos de resguardo, resistencia
+- Densidad y estrés: relación densidad-mortalidad, reducción de biomasa, manejo de cosecha parcial
+- Alimentación inteligente: cámaras bajo agua para optimizar alimentación, reducción de FCR
+- Ambiental: normas de emisión sedimentos NCH (RAMA), evaluación de fondos marinos SERNAPESCA
+- Trazabilidad: sistema SAP/Aquabyte integrado con SERNAPESCA — trazabilidad del pez al plato
 ```
-**Beneficios**: Tasa de aprobación 3x mayor con postulaciones bien estructuradas; acceso a red global de mentores y co-working en Santiago
+**Beneficios**: Reducción de mortalidad, menor uso de antibióticos, cumplimiento SERNAPESCA, acceso a mercados premium (certificación ASC/BAP)
 
 ---
 
-## Sector 5: Energías Renovables — Solar Atacama e Hidrógeno Verde
+## Sector 3: Fruticultura y Viticultura
 
-### Caso de Uso 8: Hidrógeno Verde — Proyectos y Financiamiento en Chile
-**Rol**: Gerente de Proyectos / Ingeniero de Energía / Especialista en Financiamiento Verde
+### Caso de Uso 5: Exportación de Fruta Fresca — Protocolo Fitosanitario SAG para EE.UU. y China
+**Rol**: Exportador de fruta / Jefe de calidad / Ingeniero agrónomo SAG
 **Herramienta de IA**: Claude
 
 **Estructura del Prompt**:
 ```
-Trabajo en un proyecto de hidrógeno verde en [Región de Antofagasta / Tarapacá / Magallanes].
-Tecnología: electrólisis PEM (membrana de intercambio protónico) / alcalina.
-Fuente de energía: solar fotovoltaica [Atacama] / eólica [Magallanes].
-Capacidad proyectada: [X] MW electrolizador — producción [X] toneladas H₂/día.
-Usos finales: [amoníaco verde / metanol verde / exportación H₂ líquido / combustible minería].
-Entidades: Ministerio de Energía (Estrategia Nacional de Hidrógeno Verde), CORFO (H2Chile), CNE.
-Financiamiento: [CORFO / KfW / IFC / Green Climate Fund / bono verde].
+Soy [exportador/jefe de calidad] en empresa frutícola en [O'Higgins/Maule/Biobío/Atacama/Coquimbo].
+Fruta: [uva de mesa/cerezas/arándanos/paltas/kiwis/ciruelas/manzanas].
+Destino: [EE.UU. (APHIS)/China (GACC)/UE (EFSA)/Corea].
+Volumen: [X toneladas/temporada]. Temporada: [octubre-marzo].
+Certificaciones: [GlobalGAP/PRIMUS/USDA Organic/ninguna].
+Packing: [propio/maquilado]. Frío: [atmósfera controlada/frío convencional].
 
-Desarrolla los siguientes documentos para el proyecto:
-1. Perfil de proyecto para CORFO H2Chile: descripción técnica, alineación con Estrategia Nacional H2 (meta: hub global top 3 al 2030)
-2. Análisis LCOH (Levelized Cost of Hydrogen): desglose de capex (electrolizador, balance de planta, conexión eléctrica), opex (electricidad, agua, O&M)
-3. Proceso de permisos SEA: Estudio de Impacto Ambiental (EIA) — línea base, impactos, medidas de mitigación
-4. Plan de financiamiento: estructura project finance — equity 30% / deuda 70%, garantías CORFO
-5. Análisis de mercado de exportación: Japón (NCI), Corea del Sur, Alemania (H2Global) — requisitos de certificación (IRENA, CertifHy)
-6. Acuerdo de compraventa de energía (PPA): estructura, precio, indexación — con generadora solar/eólica
-7. Análisis de agua: fuente (agua de mar + desalinización vs agua subterránea), consumo (9L H₂O/kg H₂), permiso DGA
-8. Certificación de carbono: huella de carbono del H₂ (kg CO₂/kg H₂) — metodología GHG Protocol Scope 2
+Gestiona la exportación de fruta fresca con protocolo SAG:
+- Protocolo de trabajo SAG-APHIS (uva/cereza/arándano): tratamiento en frío certificado, temperaturas y tiempos
+- Registro GACC (China): pasos para registro de packing/predio, actualización de listas, coordinación SAG-China
+- Residuos de plaguicidas: LMRs por país destino (EE.UU./UE/Japón), monitoreo PERM del SAG
+- Plan de manejo de plagas: lobesia botrana (polilla de la vid), mosca de la fruta — zonas cuarentenarias
+- GlobalGAP: auditoría, puntos obligatorios vs recomendados, certificadora acreditada en Chile
+- Logística de exportación: booking naviero, contenedor refrigerado (reefer), ETD desde San Antonio/Valparaíso
+- Cámara de frío: temperatura de pulpa para despacho, control de etileno en CA, registros data logger
+- Documentación: Certificado Fitosanitario SAG, lista de empaque, BL, póliza de seguro, factura comercial
+- Precios y cobertura: precio en destino (CAD/FOB/CIF), liquidaciones, seguros de precio (collar options)
+- Trazabilidad farm-to-fork: QR code en caja, integración con plataformas TraceOne/Sourcemap
 ```
-**Beneficios**: Acceso a financiamiento verde, reducción de 30% en tiempo de preparación del perfil de proyecto, alineación con regulación nacional
+**Beneficios**: Acceso a mercados de alto precio (cereza China CNY premium), reducción de rechazos en frontera, compliance fitosanitario
 
 ---
 
-## Tabla de Referencia Rápida: 102+ Casos de Uso Adicionales
+## Sector 4: Tecnología y Startups
 
-### Sector: Minería (Casos 9-25)
+### Caso de Uso 6: Start-Up Chile CORFO — S Factory, Seed y Scale
+**Rol**: Fundador de startup / Mentora Start-Up Chile / Asesor CORFO
+**Herramienta de IA**: Claude
 
-| # | Caso de Uso | Rol | Herramienta de IA |
-|---|-------------|-----|-------------------|
-| 9 | Gestión de proveedores (Supply Chain) Codelco — análisis de contratos y criterios ESG | Jefe de Abastecimiento | Claude |
-| 10 | Modelo de planificación de mina a largo plazo — LOM Plan con restricciones ambientales | Planificador de Mina | ChatGPT Enterprise |
-| 11 | Análisis de ley de corte y optimización de recuperación metalúrgica | Metalurgista | Claude |
-| 12 | Gestión de relaves: construcción de dique, monitoreo de seguridad — DS 248 SERNAGEOMIN | Ingeniero Geotécnico | Claude |
-| 13 | Negociación de contratos spot de cobre: precio LME + premium de refinación (TC/RC) | Trader de Metales | ChatGPT |
-| 14 | Informe de cierre de faena minera: Plan de Cierre según DS 41 — pasivos ambientales | Gerente de Asuntos Corporativos | Claude |
-| 15 | Digitalización de mapas geológicos históricos de SERNAGEOMIN — vectorización con IA | Geólogo SIG | Gemini / Claude Vision |
-| 16 | Análisis de estabilidad de taludes con IA — monitoreo con sensores InSAR | Geotécnico | Copilot |
-| 17 | Plan de gestión de agua en minería: balance hídrico, recirculación, descarga DS 90 | Especialista Ambiental | Claude |
-| 18 | Estrategia de compra de energía para minería: licitación CNE, PPA solar, tarifa regulada | Gerente de Energía | Claude |
-| 19 | Análisis de minerales críticos: cobalto, manganeso, tierras raras — exploración en Chile | Explorador | ChatGPT |
-| 20 | Gestión de comunidades indígenas en zona minera: EIA, Convenio 169 OIT, FPIC | Relacionador Comunitario | Claude |
-| 21 | Automatización de camiones en mina: análisis de ROI tecnología autónoma (Komatsu AHS) | Ingeniero de Automatización | Copilot |
-| 22 | Proceso de obtención de DGA: derechos de aprovechamiento de agua para minería | Abogado Minero | Claude |
-| 23 | Reporte ESG anual para empresa minera: GRI Standards, TCFD, SASB Metals & Mining | Especialista ESG | Claude |
-| 24 | Modelamiento geoestadístico de recursos: variograma, kriging, validación cruzada | Geólogo de Recursos | ChatGPT |
-| 25 | Plan de descarbonización minería: electrificación de flota, ERNC, objetivo net-zero 2050 | Gerente de Sustentabilidad | Claude |
+**Estructura del Prompt**:
+```
+Soy fundador/a de una startup en etapa [idea/MVP/crecimiento] en [Chile/extranjero queriendo postular].
+Sector: [agritech/fintech/healthtech/edtech/climatetech/marketplace].
+Equipo: [X cofundadores]. Tracción actual: [usuarios/MRR/contratos pilotos].
+Programa objetivo: [S Factory (pre-semilla mujeres)/Seed (USD 100K)/Scale (USD 150K+)].
+Situación legal: [SpA constituida/por constituir/empresa extranjera].
 
-### Sector: Acuicultura del Salmón (Casos 26-38)
-
-| # | Caso de Uso | Rol | Herramienta de IA |
-|---|-------------|-----|-------------------|
-| 26 | Análisis oceanográfico: corrientes, oxígeno disuelto, temperatura — selección de sitio | Biólogo Marino | Claude |
-| 27 | Plan de alimentación optimizado: FCR (Feed Conversion Ratio), Thermal Growth Coefficient | Nutricionista Acuícola | ChatGPT |
-| 28 | Gestión de smolts: calidad del agua en hatchery, fotoperiodo, vacunación | Gerente de Smoltificación | Claude |
-| 29 | Certificación BAP (Best Aquaculture Practices) para exportación a EE.UU. | Jefe de Calidad | Claude |
-| 30 | Negociación de contratos de venta de salmón: spot vs forward — mercado europeo (Nasdaq Fish Pool) | Trader | ChatGPT |
-| 31 | Análisis de impacto ambiental DS 320: monitoreo de sedimentos y columna de agua | Especialista Ambiental | Claude |
-| 32 | Plan de contingencia por bloom de algas (marea roja — SERNAPESCA HAB alert) | Gerente de Centro | Claude |
-| 33 | Trazabilidad del producto: de smolt a filete — blockchain para supermercados europeos | Jefe de TI | Copilot |
-| 34 | Estrategia de eficiencia energética en packing: refrigeración, congelado IQF | Ingeniero Industrial | ChatGPT |
-| 35 | Análisis de mercado: salmón chileno vs noruego — diferenciales de precio y posicionamiento | Gerente Comercial | Claude |
-| 36 | Programa de bienestar animal en matanza: aturdimiento eléctrico, CO₂ — Five Freedoms | Veterinario | Claude |
-| 37 | Gestión de residuos: cabezas, vísceras, lodos — conversión a harina y aceite de pescado | Gerente Operaciones | ChatGPT |
-| 38 | Plan de respuesta ante inspección SERNAPESCA: checklist de cumplimiento, carpeta de documentos | Jefe de Área | Claude |
-
-### Sector: Exportación de Frutas (Casos 39-52)
-
-| # | Caso de Uso | Rol | Herramienta de IA |
-|---|-------------|-----|-------------------|
-| 39 | Plan de cultivo de arándanos: variedades para mercado norteño (USA feb-abril), gap analysis | Agrónomo | Claude |
-| 40 | Protocolo SAG para uvas de mesa: tratamiento cuarentenario (frío vs fumigación) para EE.UU. | Ingeniero Agrónomo | Claude |
-| 41 | Análisis de LMR (Límites Máximos de Residuos): plaguicidas autorizados por mercado destino | Especialista en Inocuidad | ChatGPT |
-| 42 | Plan de riego con tecnología precisión: sensores de humedad, VPD, programación fertirriego | Agrónomo de Precisión | Claude |
-| 43 | Estrategia de diferenciación orgánica: certificación USDA Organic / EU Organic — conversión | Productor Orgánico | Claude |
-| 44 | Análisis de opciones de transporte: costo marítimo vs aéreo para arándanos frescos | Logística | ChatGPT |
-| 45 | Estrategia de venta en China: plataformas Tmall Global / JD International — setup tienda | Gerente E-commerce | Claude |
-| 46 | Plan de postcosecha: temperatura, atmósfera controlada, etileno — tabla por producto | Tecnólogo en Alimentos | Claude |
-| 47 | Análisis de precios históricos de cerezas: estacionalidad, años buenos vs malos — proyección | Analista de Mercado | ChatGPT |
-| 48 | Certificación GlobalG.A.P.: checklist de puntos de control, preparación para auditoría | Responsable de Calidad | Claude |
-| 49 | Gestión de cuadrillas de cosecha: planificación de personal, temporeros, contrato SENCE | RRHH Agrícola | Claude |
-| 50 | Plan de exportación de paltas (Hass): protocolo fitosanitario, mercados USA/Europa/China | Exportador | Claude |
-| 51 | Análisis de TLC Chile-China, Chile-USA, Chile-UE: aprovechamiento de rebajas arancelarias | Comercio Exterior | ChatGPT |
-| 52 | Estrategia de marca-país para fruta chilena: posicionamiento "Fruta del Fin del Mundo" | Marketing | Claude |
-
-### Sector: Vino Chileno (Casos 53-62)
-
-| # | Caso de Uso | Rol | Herramienta de IA |
-|---|-------------|-----|-------------------|
-| 53 | Estrategia de exportación de Carmenère: posicionamiento varietal único de Chile en mercados premium | Gerente Exportaciones Viña | Claude |
-| 54 | Plan de comunicación de terruño: Colchagua, Maipo, Casablanca, San Antonio — storytelling para sommelier | Director de Comunicaciones | Claude |
-| 55 | Análisis de mercado de vino en China: canal on-trade (restaurantes) vs e-commerce (Tmall) | Gerente Comercial | ChatGPT |
-| 56 | Certificación de vino orgánico/biodinámico: SAG vinos orgánicos, CE 834/2007 | Enólogo | Claude |
-| 57 | Plan de enoturismo: circuito de visitas, maridajes, experiencias VIP — Ruta del Vino | Director Turismo Viña | Claude |
-| 58 | Análisis de puntuaciones Wine Spectator / Robert Parker: correlación con precio y ventas | Analista | ChatGPT |
-| 59 | Plan de manejo de viñedo: control de enfermedades (botrytis, oídio) — agricultura de precisión | Enólogo de Viticultura | Claude |
-| 60 | Redacción de notas de cata: descriptores de Carmenère / Sauvignon Blanc chileno en inglés/español/chino | Enólogo / Sommelier | Claude |
-| 61 | Estrategia de precio: posicionamiento entre $10-$20 USD/botella en USA — análisis de retail shelf | Brand Manager | Claude |
-| 62 | Plan de participación en ferias: Prowein (Düsseldorf), Vinexpo, London Wine Fair — ROI esperado | Gerente de Marketing | ChatGPT |
-
-### Sector: Gobierno Digital y Trámites (Casos 63-75)
-
-| # | Caso de Uso | Rol | Herramienta de IA |
-|---|-------------|-----|-------------------|
-| 63 | ChileAtiende: automatización de respuestas a consultas ciudadanas — chatbot multiservicio | Funcionario SEGEGOB | Claude / Botpress |
-| 64 | ClaveÚnica: protocolo de recuperación de contraseña y onboarding digital — guía para adultos mayores | Equipo UX Gobierno | Claude |
-| 65 | Ley 21.180 de Transformación Digital: plan de implementación en municipio / servicio público | Jefe de TI Municipal | Claude |
-| 66 | Atención en COMPIN: formularios de licencias médicas, invalidez — simplificación de trámites | Funcionario COMPIN | Claude |
-| 67 | Plan de gobierno abierto: datos abiertos, portal data.gob.cl — análisis y visualización | Analista de Datos | Copilot |
-| 68 | Declaración de renta SII: resumen de cambios anuales, guía para PYME y personas naturales | Asesor Tributario | Claude |
-| 69 | Plataforma OIRS (Oficina de Información, Reclamos y Sugerencias): análisis de demanda ciudadana | Encargado OIRS | Claude |
-| 70 | Plan de contratación pública: bases de licitación Mercado Público — ChileCompra | Jefe de Compras Municipal | Claude |
-| 71 | Análisis de datos del CENSO 2024: indicadores socioeconómicos por región — visualizaciones | Analista INE | Copilot |
-| 72 | Estrategia de seguridad cibernética: CSIRT Gobierno — análisis de vulnerabilidades, phishing | Especialista en Ciberseguridad | Claude |
-| 73 | Plan de atención a ciudadanos con discapacidad: accesibilidad web (WCAG 2.1) en portales públicos | UX Designer Gobierno | Claude |
-| 74 | Política de datos personales: cumplimiento Ley 19.628 (próxima actualización a nueva ley) | DPO / Asesor Legal | Claude |
-| 75 | Plan de digitalización de archivos históricos: OCR, indexación — Archivo Nacional de Chile | Archivista | Gemini / Claude |
-
-### Sector: Finanzas, AFP y CMF (Casos 76-88)
-
-| # | Caso de Uso | Rol | Herramienta de IA |
-|---|-------------|-----|-------------------|
-| 76 | AFP: análisis de rentabilidad de fondos A/B/C/D/E — comunicación a afiliados en lenguaje simple | Ejecutivo AFP | Claude |
-| 77 | CMF: elaboración de informe de cumplimiento normativo — Recopilación Actualizada de Normas (RAN) | Oficial de Cumplimiento | Claude |
-| 78 | Fintech Ley 21.521: proceso de registro ante CMF — requisitos técnicos y legales | Fundador Fintech | Claude |
-| 79 | Modelo de scoring crediticio alternativo: datos no tradicionales (pagos de servicios, redes sociales) | Data Scientist Fintech | ChatGPT |
-| 80 | Plan de inversión personal: comparación AFP vs APV (Ahorro Previsional Voluntario) — optimización tributaria | Asesor Financiero | Claude |
-| 81 | Análisis de riesgo de liquidez: Basilea III — ratio LCR para banco chileno supervisado por CMF | Tesorero Banco | Claude |
-| 82 | Estrategia de crédito para PYME: análisis de oferta FOGAPE, BancoEstado, garantías CORFO | Ejecutivo PYME | Claude |
-| 83 | Plan anti-lavado de activos (ALA/CFT): políticas UAF — cliente corporativo de alto riesgo | Oficial AML | Claude |
-| 84 | Análisis de mercado de seguros: AACH — cobertura de terremotos en Chile (obligatorio para hipotecario) | Broker de Seguros | ChatGPT |
-| 85 | Modelo de valorización de empresa chilena: DCF en CLP/UF — múltiplos comparables IPSA | Analista M&A | Claude |
-| 86 | Política de dividendos: empresas listadas en la Bolsa de Santiago — requisito 30% utilidades líquidas | CFO Empresa Pública | Claude |
-| 87 | Plan de emisión de bono verde: requisitos CMF, marco de referencia, uso de fondos elegibles | Gerente de Finanzas | Claude |
-| 88 | Análisis de criptoactivos: marco regulatorio UAF Chile 2024 — riesgo AML en exchanges | Asesor Legal Crypto | Claude |
-
-### Sector: Energías Renovables y Medioambiente (Casos 89-100)
-
-| # | Caso de Uso | Rol | Herramienta de IA |
-|---|-------------|-----|-------------------|
-| 89 | Desarrollo solar fotovoltaico Atacama: evaluación de recurso (GHI), ingeniería básica, PPA | Desarrollador Solar | Claude |
-| 90 | Plan de licitación CNE de energía: oferta estratégica — precio ofertado, bloque horario, localización | Gerente Comercial Generadora | ChatGPT |
-| 91 | ERNC en sistemas aislados: Aysén / Juan Fernández — hibridación solar-diésel-batería | Ingeniero Energético | Claude |
-| 92 | Plan de PMGD (Pequeño Medio de Generación Distribuida): tramitación SEC, conexión a red distribución | Desarrollador PMGD | Claude |
-| 93 | Análisis de huella de carbono empresarial: Scope 1, 2 y 3 — inventario GEI según ISO 14064 | Especialista Sustentabilidad | Claude |
-| 94 | Estrategia net-zero para empresa chilena: ruta de descarbonización, compensaciones de carbono | Gerente de Sustentabilidad | Claude |
-| 95 | Plan de gestión CONAF: reforestación con especies nativas (lenga, coigüe, araucaria) — bonos de carbono | Ingeniero Forestal | Claude |
-| 96 | Sistema de monitoreo ambiental: redes de medición de calidad del aire (SEREMI de Salud) — análisis de datos | Analista Ambiental | Copilot |
-| 97 | Plan de eficiencia energética en edificio: Calificación Energética (CEV) — medidas de mejora | Arquitecto / Ingeniero | Claude |
-| 98 | Gestión de residuos sólidos municipales: Plan de Gestión de Residuos — Ley REP (Responsabilidad Extendida del Productor) | Encargado Municipal de Medioambiente | Claude |
-| 99 | Análisis de riesgo climático TCFD: exposición de activos a sequía, incendios, inundaciones en Chile | Analista de Riesgo | Claude |
-| 100 | Plan de electromovilidad para empresa: flota eléctrica, cargadores, análisis TCO vs combustión | Gerente de Flota | ChatGPT |
-| 101 | Hidrógeno verde para minería: conversión de flota de camiones en mina — análisis técnico-económico | Gerente de Innovación Minera | Claude |
-| 102 | Plan de desalinización solar: solución hídrica para minería del norte de Chile — huella carbono | Ingeniero de Proyectos | Claude |
-| 103 | Análisis de eólico en Magallanes: recurso eólico (velocidad media >10 m/s), conectividad, H2 exportación | Desarrollador Eólico | Claude |
-| 104 | Certificación ISO 14001 para empresa industrial: plan de implementación, auditoría interna | Jefe de Medioambiente | Claude |
-| 105 | Plan de gestión de glaciares: normativa Ley de Glaciares (en tramitación) — impacto en minería | Glaciólogo / Abogado | Claude |
-| 106 | Mercado de bonos de carbono: registro nacional de Chile, metodologías VERRA / Gold Standard | Especialista en Carbono | Claude |
-| 107 | Estrategia de agrivoltaico: generación solar + agricultura en zona norte-chico | Agricultor / Desarrollador Solar | ChatGPT |
-| 108 | Plan de economía circular: PNPRS Ministerio del Medio Ambiente — empresa manufacturera | Gerente de Operaciones | Claude |
-| 109 | Análisis de riesgo sísmico: constructora en zona 3 (Norma NCh 433) — diseño antisísmico | Ingeniero Civil Estructural | Copilot |
-| 110 | Estrategia de agua en agricultura: eficiencia de riego, DAA, Plan de Gestión de Cuencas DGA | Agricultor / Agrónomo | Claude |
+Guíame en la postulación a Start-Up Chile:
+- Programas disponibles: S Factory (enfoque femenino), Seed (general, USD 100K no dilutivo), Scale (escalamiento), Backbone (impacto social)
+- Requisitos de elegibilidad: domicilio en Chile, equipo residente, sectores priorizados
+- Formulario de postulación: cómo responder cada sección — problema, solución, mercado, equipo, tracción
+- Equity: Start-Up Chile no toma equity — ventaja vs aceleradoras privadas
+- Compromiso de permanencia: tiempo en Chile durante el programa, oficinas Campus Beauchef/Santiago
+- Constitución SpA digital: Registro de Empresas y Sociedades (RES), costo cero, trámite online
+- Financiamiento complementario: CORFO Capital Semilla, ICT (Instrumento Capital Temprano), FOGAPE digital
+- Mentores y red: acceso a red de alumni, Demo Day, conexión con fondos VC latinoamericanos
+- Visa tecnológica: visa de trabajo para fundadores extranjeros — proceso consulado chileno
+- Post-programa: cómo mantener el estatus en Chile, acceso a nuevas convocatorias CORFO
+```
+**Beneficios**: USD 100K-150K sin diluir equity, red de mentores, visibilidad internacional, ecosistema Santiago
 
 ---
 
-## Herramientas de IA Recomendadas para Chile
+## Sector 5: Gobierno Digital
 
-| Herramienta | Mejor Para | Costo Aprox. |
-|-------------|-----------|--------------|
-| Claude (Anthropic) | Análisis regulatorio, redacción técnica, documentos legales CMF/SERNAGEOMIN/SERNAPESCA | Gratis / Pro US$20/mes |
-| ChatGPT (OpenAI) | Brainstorming, análisis de mercado, correos comerciales, código Python | Gratis / Plus US$20/mes |
-| GitHub Copilot | Automatización, scripting para análisis de datos mineros/energéticos | US$10/mes |
-| Gemini (Google) | Análisis de documentos, integración Google Workspace (gobierno), imágenes satelitales | Gratis / Workspace |
-| Microsoft Copilot | Documentos Excel/Word/PowerPoint para reportes corporativos Codelco/viñas/AFP | Microsoft 365 |
-| Perplexity | Investigación rápida: precios LME, regulación CMF, normativa SAG | Gratis / Pro US$20/mes |
-| Midjourney / DALL-E | Material visual: marketing de vino, frutas, enoturismo, energía solar | US$10-30/mes |
-| Notion AI | Gestión de proyectos: startups CORFO, equipos de exploración minera | US$8-16/mes |
+### Caso de Uso 7: ChileAtiende, ClaveÚnica y Ley 21.180 de Digitalización
+**Rol**: Funcionario público / Jefe de servicio digital / Ciudadano
+**Herramienta de IA**: Claude
 
----
+**Estructura del Prompt**:
+```
+Trabajo en [ministerio/servicio público/municipalidad] implementando la Ley 21.180 de Transformación Digital.
+Área: [trámites ciudadanos/gestión documental/interoperabilidad entre servicios].
+Estado actual: [expediente electrónico/ventanilla única digital/integración ClaveÚnica].
+Usuarios que atendemos: [X ciudadanos/mes]. Trámites digitalizados: [X de Y totales].
+Plataformas: [Portal ChileAtiende/SIMPLE SEGPRES/Mercado Público].
 
-## Tabla de Instituciones Chilenas Clave para Prompts de IA
-
-| Institución | Sigla | Rol |
-|-------------|-------|-----|
-| Servicio Nacional de Geología y Minería | SERNAGEOMIN | Regulación seguridad minera, catastro geológico |
-| Servicio Nacional de Pesca y Acuicultura | SERNAPESCA | Fiscalización acuicultura y pesca |
-| Servicio Agrícola y Ganadero | SAG | Certificados fitosanitarios, exportación agrícola |
-| Corporación de Fomento de la Producción | CORFO | Financiamiento innovación, Start-Up Chile |
-| Comisión Minera | CMH | Concesiones mineras |
-| Comisión para el Mercado Financiero | CMF | Regulación bancos, seguros, AFP, fintech |
-| Servicio de Impuestos Internos | SII | Tributación empresa e individual |
-| Dirección General de Aguas | DGA | Derechos de agua |
-| Superintendencia del Medio Ambiente | SMA | Fiscalización ambiental, RCA |
-| Corporación Nacional Forestal | CONAF | Gestión forestal, áreas protegidas |
-| Comisión Nacional de Energía | CNE | Licitaciones eléctricas, tarifas |
-| Superintendencia de Electricidad y Combustibles | SEC | Concesiones eléctricas, instalaciones |
-| Servicio de Evaluación Ambiental | SEA | Tramitación EIA y DGA |
-| Instituto Nacional de Propiedad Industrial | INAPI | Patentes, marcas |
-| Subsecretaría de Telecomunicaciones | SUBTEL | Regulación telecomunicaciones |
+Implementa la transformación digital del servicio público:
+- Ley 21.180: obligaciones por tipo de servicio, plazos de implementación, excepciones
+- ClaveÚnica: integración API para autenticación ciudadana, casos de uso, seguridad
+- ChileAtiende: publicación de trámites en catálogo, actualización de información, canal presencial/digital
+- SIMPLE (SEGPRES): plataforma de gestión documental del Estado — expediente electrónico
+- Interoperabilidad: plataforma de integración PISEE — consulta de datos entre servicios sin pedir documentos
+- Cero papel: eliminación de documentos físicos, firma electrónica avanzada (FEA), registro civil digital
+- Accesibilidad: WCAG 2.1 para sitios web del Estado, brecha digital en adultos mayores y zonas rurales
+- Datos abiertos: portal datos.gob.cl — publicación de datasets en formato abierto, licencia
+- IA en servicios públicos: chatbots en ChileAtiende, automatización de respuestas SDA, moderación
+- Evaluación: NPS del trámite digital, tiempo promedio de resolución, tasa de abandono digital
+```
+**Beneficios**: Reducción de burocracia, ahorro de tiempo ciudadano, transparencia, cumplimiento legal Ley 21.180
 
 ---
 
-## Glosario Sectorial Chileno
+## Sector 6: Energías Renovables
 
-| Término | Significado |
-|---------|-------------|
-| IPSA | Índice de Precio Selectivo de Acciones — bolsa de Santiago |
-| UF | Unidad de Fomento — unidad indexada a inflación |
-| AFP | Administradora de Fondos de Pensiones |
-| APV | Ahorro Previsional Voluntario |
-| FOGAPE | Fondo de Garantía para Pequeños Empresarios |
-| RCA | Resolución de Calificación Ambiental |
-| LTE / 5G | Cobertura telecomunicaciones SUBTEL |
-| MAPE | Minería artesanal de pequeña escala |
-| PPA | Power Purchase Agreement (Contrato de Compraventa de Energía) |
-| TC/RC | Tratamiento Charge / Refinamiento Charge (cobre) |
-| SRS | Salmonid Rickettsial Septicemia (enfermedad salmones) |
-| PMGD | Pequeño Medio de Generación Distribuida |
-| TLC | Tratado de Libre Comercio |
-| MRR | Monthly Recurring Revenue |
-| FCR | Feed Conversion Ratio (acuicultura) |
+### Caso de Uso 8: Solar Atacama y Hidrógeno Verde Haru Oni Magallanes
+**Rol**: Desarrollador de energía renovable / Ingeniero eléctrico / Ejecutivo de proyecto H2V
+**Herramienta de IA**: Claude
 
----
+**Estructura del Prompt**:
+```
+Trabajo en desarrollo de energía renovable en Chile.
+Proyecto A — Solar: [Región de Antofagasta/Atacama]. GHI: [8-9 kWh/m2/día, mayor del mundo].
+Tecnología: [bifacial/tracker/perovskita]. Capacidad: [X MWp]. Contrato: [PPA/spot/empresa consumidora].
+Proyecto B — Hidrógeno Verde: [Magallanes/Antofagasta]. Recurso: [viento Patagonia/solar Atacama].
+Electrolizador: [PEM/alcalino]. Capacidad H2: [X toneladas/día]. Destino: [exportación Europa/uso local amoniaco].
 
-## SEO y Recursos Adicionales
-
-**Palabras clave**: IA Chile minería cobre litio, inteligencia artificial salmonicultura Chile, ChatGPT exportación cerezas Chile, prompts IA CORFO Start-Up Chile, IA regulación CMF Chile, Claude SERNAGEOMIN seguridad minera, IA hidrógeno verde Atacama, herramientas IA vino Carmenère Chile
-
-**Sectores relacionados**: Codelco digitalización, SQM tecnología, Mowi Chile IA, CORFO innovación, CNE energía renovable IA, AFP tecnología financiera Chile
-
-**Recursos oficiales**:
-- CORFO: [corfo.cl](https://www.corfo.cl)
-- Start-Up Chile: [startupchile.org](https://www.startupchile.org)
-- SERNAGEOMIN: [sernageomin.cl](https://www.sernageomin.cl)
-- SERNAPESCA: [sernapesca.cl](https://www.sernapesca.cl)
-- CMF: [cmfchile.cl](https://www.cmfchile.cl)
-- CNE: [cne.cl](https://www.cne.cl)
-- SAG: [sag.cl](https://www.sag.cl)
+Desarrolla el proyecto de energía renovable en Chile:
+- Evaluación de recurso solar: NASA POWER, SOLARGIS, medición in situ — bankabilidad del recurso
+- Permiso ambiental (DGA/CONAF/SMA): EIA o DGA para proyectos sobre 3MW, plazos, participación ciudadana
+- SERNAGEOMIN: para proyectos en zona minera o con movimiento de tierras
+- Contratos PPA: estructura, indexación (IPC/USD), plazo (10-20 años), off-taker crediticio
+- Licitaciones CNE: licitaciones de suministro eléctrico — cómo calcular el precio de oferta competitivo
+- Financiamiento: project finance BID/IFC/DEG/KfW, CORFO líneas de financiamiento ERNC
+- Red eléctrica SEN: capacidad de conexión al sistema, peajes de transmisión, capacidad de evacuación
+- Hidrógeno verde: estrategia nacional H2V Chile 2050 — exportación verde, certificados de origen
+- Haru Oni (HIF Global): modelo de referencia en Magallanes — e-fuels (e-methanol, e-kerosene)
+- Amoniaco verde: síntesis Haber-Bosch con H2V, exportación Asia-Pacífico, demanda 2030
+```
+**Beneficios**: Acceso a LCOE más bajo del mundo (solar Atacama), posicionamiento en mercado de H2 verde, financiamiento internacional
 
 ---
 
-*Creado por **Adrian Dunkley** | [maestrosai.com](https://maestrosai.com) | ceo@maestrosai.com*
-*Recurso educativo de uso libre — cite la fuente al compartir*
-*Actualizado: Marzo 2026*
+## Casos de Uso 9–113: Tabla de Referencia Rápida
+
+| # | Sector | Caso de Uso | Rol Principal | Herramienta |
+|---|--------|-------------|---------------|-------------|
+| 9 | Minería oro | Minería artesanal de oro: ENAMI, uso de borax en lugar de mercurio, certificación responsable | Pirquinero / ONG ambiental | Claude |
+| 10 | Minería manganeso | Manganeso Atacama: proceso de beneficio, mercado asiático, logística Antofagasta | Empresa minera / Exportador | Claude |
+| 11 | Minería drones | Topografía con drones en minería: autorización DGAC, modelo 3D de rajo, volumen de stock | Topógrafo / Empresa drones | Claude |
+| 12 | Minería cobre refinado | Refinería de cobre: ENAMI/Codelco, producción de cátodos LME grado A, exportación | Ingeniero metalúrgico | Claude |
+| 13 | Agro hidroponía | Hidroponía en invernadero: lechuga/tomate cherry, venta directa a supermercados Santiago | Agricultor / Agrónomo | Claude |
+| 14 | Agro orgánicos | Certificación orgánica SAG Chile: norma técnica, OAC (organismo de certificación acreditado) | Agricultor orgánico | Claude |
+| 15 | Agro quinoa | Quinoa altiplánica: denominación de origen, exportación a Europa, comunidades aymara | Productor / INDAP | Claude |
+| 16 | Agro ganadería | Ganadería ovina en Patagonia: lana premium Magallanes, exportación a Italia/España | Ganadero / Cooperativa | Claude |
+| 17 | Agro apicultura | Miel de ulmo certificada: exportación a Alemania, denominación de origen, certificado SAG | Apicultor / Exportador | Claude |
+| 18 | Agro pisco | Pisco chileno DO: denominación de origen Atacama/Coquimbo, exportación, diferenciación vs Perú | Pisquero / Exportador | Claude |
+| 19 | Agro cerezas | Cerezas para China: protocolo GACC, manejo de frío, despacho aéreo/marítimo diciembre | Exportador de cerezas | Claude |
+| 20 | Agro celulosa | Celulosa Arauco/CMPC: ciclo forestal pino/eucalipto, mercado Asia/Europa, huella carbono | Forestal / Ingeniero | Claude |
+| 21 | Agro INDAP | Crédito INDAP para pequeño agricultor: largo plazo, corto plazo, bono fomento riego | Agricultor / Consultor INDAP | Claude |
+| 22 | Agro CONAF | CONAF Programa Forestación: bonificación DL 701 (proyectos vigentes), recuperación suelos | Forestal / Propietario predio | Claude |
+| 23 | Agro seguro | Seguro agrícola CORFO-Agroseguros: siniestro por helada/sequía/granizo, tramitación | Agricultor / Broker seguros | Claude |
+| 24 | Energía eficiencia | Ley de Eficiencia Energética 20.936: grandes consumidores, SGEN, reportes anuales a SEC | Empresa industrial / AGC | Claude |
+| 25 | Energía geotermia | Geotermia en Chile: concesiones CNE, proyectos Cerro Pabellón (ENEL/ENAP), tarifa | Empresa energética / CNE | Claude |
+| 26 | Energía mini-hidro | Mini-hidroeléctricas en zona sur: DGA caudal ecológico, permiso SERNAGEOMIN, PMGD | Generador distribuido | Claude |
+| 27 | Energía eólica | Eólica en Atacama: factor de planta mayor al 40%, curva de viento, conexión SEN norte | Desarrollador eólico | Claude |
+| 28 | Energía comunidades | Energía comunitaria: cooperativas de energía solar, net metering residencial (Ley 20.936) | Cooperativa / Municipio | Claude |
+| 29 | Finanzas AFP | AFP Chile: rentabilidad histórica por fondo (A-E), estrategia de multifondos, traspaso | Trabajador / Asesor previsional | Claude |
+| 30 | Finanzas FIP | FIP (Fondos de Inversión Privados): estructura, ventajas tributarias para family office | Abogado / Gestor inversiones | Claude |
+| 31 | Finanzas CMF | CMF (Comisión para el Mercado Financiero): regulación de valores, normas de conducta | Compliance officer / Banco | Claude |
+| 32 | Finanzas Ley Fintech | Ley Fintech 21.521: open banking, proveedores de servicios financieros, CMF autorización | Fintech / Abogado regulatorio | Claude |
+| 33 | Finanzas Fintual | Fondo de inversión automatizado: Fintual, Buda, ComparaOnline — estrategia ahorro/inversión | Inversionista retail | Claude |
+| 34 | Finanzas seguros | Seguros en Chile: CMF, seguros de vida/salud/SOAP, comparación de pólizas, liquidación | Broker seguros / Asegurado | Claude |
+| 35 | Finanzas portabilidad | Portabilidad financiera (Ley 21.236): traslado de crédito hipotecario entre bancos sin costo | Deudor hipotecario | Claude |
+| 36 | Finanzas SII F22 | Declaración de renta F22 SII: créditos, dividendos, segunda categoría, devolución | Contribuyente / Contador | Claude |
+| 37 | Finanzas IVA | IVA en Chile: declaración mensual F29, crédito fiscal, débito fiscal, emisión de boletas | Empresa / Contador | Claude |
+| 38 | Finanzas startup | Valorización de startup chilena: método Berkus/Scorecard, DCF para pitch VC | Founder / Analista VC | Claude |
+| 39 | Salud FONASA | FONASA: bonificación por tramo, Libre Elección, MLE — cómo optimizar el uso del seguro | Paciente / Profesional salud | Claude |
+| 40 | Salud ISAPRE GES | ISAPRE y GES (Garantías Explícitas en Salud): 85 enfermedades garantizadas, reclamación | Afiliado ISAPRE / Abogado | Claude |
+| 41 | Salud telemedicina | Telemedicina en Chile: Ley 21.541, plataformas médicas digitales, interconsulta remota | Médico / Plataforma salud | Claude |
+| 42 | Salud mental | Ley de Salud Mental 21.331: derechos del paciente, internación voluntaria/involuntaria, COSAM | Psiquiatra / Trabajador social | Claude |
+| 43 | Salud ISP | ISP bioequivalencia: registro sanitario de medicamentos genéricos, pruebas de equivalencia | Laboratorio farmacéutico | Claude |
+| 44 | Salud FONASA dental | Dental FONASA: Plan de Salud Oral garantizado, ortodoncia, convenios municipales | Dentista / Paciente | Claude |
+| 45 | Salud nutrición | Ley de Etiquetado de Alimentos (20.606): octógonos de advertencia, publicidad, restricciones | Nutricionista / Empresa alimentos | Claude |
+| 46 | Educación PAES | PAES (Prueba de Acceso a la Educación Superior): preparación matemáticas/lectura/ciencias | Estudiante / Tutor | Claude |
+| 47 | Educación JUNAEB | JUNAEB: beca alimentación/útiles/lentes/hospedaje — postulación y renovación | Estudiante / Apoderado | Claude |
+| 48 | Educación MECESUP | MECESUP (Mejoramiento de la Calidad de la Educación Superior): proyecto de vinculación | Académico / Universidad | Claude |
+| 49 | Educación gratuidad | Gratuidad universitaria: requisitos socioeconómicos, universidades acreditadas, DEMRE | Estudiante / Orientador | Claude |
+| 50 | Educación INACAP | INACAP y CFT (Centros de Formación Técnica): becas técnicas, demanda laboral por carrera | Estudiante técnico | Claude |
+| 51 | Educación dual | Formación dual: empresa-institución, convenio MTP (Marco de Titulación Profesional) | Empresa / OTEC | Claude |
+| 52 | Educación IA | IA en el aula: uso de Claude/ChatGPT en liceos técnicos, política MINEDUC 2024 | Docente / Director escolar | Claude |
+| 53 | Turismo Patagonia | Parques Patagonia: Torres del Paine/Cerro Castillo — turismo sostenible, cap de visitantes | Operador turístico / CONAF | Claude |
+| 54 | Turismo San Pedro | San Pedro de Atacama: turismo astronómico, astroturismo, paquetes premium internacionales | Agencia turismo / Hotel | Claude |
+| 55 | Turismo MICE | Santiago como destino MICE: CasaPiedra/Espacio Riesco, convenciones internacionales | Agencia eventos / Hotel | Claude |
+| 56 | Turismo ski | Ski Chile: Valle Nevado/Portillo — mercado sudamericano e internacional, temporada junio-octubre | Resort / Operador turístico | Claude |
+| 57 | Turismo agroturismo | Agroturismo en el sur de Chile: Chiloé/Región de Los Lagos, turismo de naturaleza | Productor / Agencia | Claude |
+| 58 | Turismo SERNATUR | SERNATUR: registro de prestadores, calificación turística, marketing destino Chile | Operador turístico | Claude |
+| 59 | Turismo cruceros | Cruceros Patagonia: Puerto Montt/Punta Arenas — logística portuaria, experiencia en tierra | Agencia receptiva / Puerto | Claude |
+| 60 | Retail Falabella | Falabella e-commerce: marketplace, CMR Puntos, logística Linio/Falabella.com | Marca / Vendedor marketplace | Claude |
+| 61 | Retail Mercado Libre | MercadoLibre Chile: categorías más vendidas, fulfillment, publicidad MLA | Vendedor online | Claude |
+| 62 | Retail logística | Beetrack logística: routing de última milla, integración API, indicadores de entrega | Empresa logística / E-commerce | Claude |
+| 63 | Retail puerto | Puerto San Antonio/Valparaíso: importación contenedores, tramitación aduana, SAP | Importador / Agente de aduana | Claude |
+| 64 | Retail moderno | Supermercados Cencosud/SMU/Walmart Chile: condiciones de ingreso de productos, negociación | Proveedor PyME / Broker retail | Claude |
+| 65 | Legal INAPI | Propiedad intelectual INAPI: registro de marcas nacionales, patentes de invención, diseños | Abogado / Empresa innovadora | Claude |
+| 66 | Legal mediación | Centro de Arbitraje y Mediación (CAM Santiago): arbitraje comercial, cláusula arbitral | Abogado / Empresa | Claude |
+| 67 | Legal SERNAC | SERNAC: denuncia de consumidor, mediación colectiva, Ley del Consumidor 19.496 | Consumidor / Empresa | Claude |
+| 68 | Legal datos | Ley de Datos Personales 19.628 (nueva versión): compliance, DPO, multas, derechos ARCO | Compliance officer / Abogado | Claude |
+| 69 | Legal societario | Constitución SpA digital: RES, estatutos, distribución de acciones, acuerdo de accionistas | Abogado / Fundador | Claude |
+| 70 | Legal laboral | Código del Trabajo Chile: contrato, finiquito, horas extra, fuero maternal | Abogado laboral / RRHH | Claude |
+| 71 | Ambiente REP | Ley REP 20.920: gestión de envases/neumáticos/aparatos electrónicos — planes de gestión | Empresa / Gestor ambiental | Claude |
+| 72 | Ambiente parques | Parques nacionales CONAF: concesiones turísticas, guías de montaña, pago de entrada | CONAF / Concesionario | Claude |
+| 73 | Ambiente carbono azul | Carbono azul en manglares/kelp: metodología Verra, créditos de carbono azul, Chile | ONG / Empresa pesquera | Claude |
+| 74 | Ambiente economía circular | Economía circular en industria: reciclaje industrial, residuos como insumos, reporting ESG | Director ambiental / PyME | Claude |
+| 75 | Ambiente agua | DGA (Dirección General de Aguas): derechos de agua, traslados, caducidades, Ley 21.435 | Abogado aguas / Agrícola | Claude |
+| 76 | RRHH código trabajo | Código del Trabajo: jornada laboral 40 horas (Ley 21.561), distribución, banco de horas | RRHH / Abogado laboral | Claude |
+| 77 | RRHH teletrabajo | Ley Teletrabajo 21.220: contrato especial, desconexión digital, equipamiento empresa | RRHH / Manager | Claude |
+| 78 | RRHH AFP APV | APV (Ahorro Previsional Voluntario): régimen A/B, beneficio tributario, fondos disponibles | Trabajador / Asesor financiero | Claude |
+| 79 | RRHH selección | Reclutamiento con IA: screening de CVs, entrevistas asistidas, bias algorítmico y ética | Recruiter / RRHH | Claude |
+| 80 | RRHH expatriados | Visa de trabajo para extranjeros: PDTEG (técnicos especialistas), visa definitiva | RRHH / Trabajador extranjero | Claude |
+| 81 | Cultura Fondart | Fondart (Fondo de Desarrollo Cultural): concurso de proyectos, música/artes visuales/cine | Artista / Gestor cultural | Claude |
+| 82 | Cultura música | Música chilena: SCD (Sociedad Chilena del Derecho de Autor), royalties, streaming Spotify | Músico / Manager artístico | Claude |
+| 83 | Cultura cine | Cine chileno: concurso CORFO-Cine Chile, coproducción internacional, plataformas streaming | Productor audiovisual | Claude |
+| 84 | Cultura patrimonio | Patrimonio cultural inmaterial: UNESCO, DIBAM — planes de salvaguardia, comunidades | Gestor cultural / Municipio | Claude |
+| 85 | Deporte fútbol | Fútbol chileno: estructura ANFP, licencias de estadio, derechos de televisión, marketing | Club / Directivo deportivo | Claude |
+| 86 | Deporte MINDEP | MINDEP (Ministerio del Deporte): fondos concursables, infraestructura deportiva municipal | Federación / Municipio | Claude |
+| 87 | Deporte alto rendimiento | Becas MINDEP para atletas de alto rendimiento: criterios, plan de entrenamiento, nutrición | Deportista / Entrenador | Claude |
+| 88 | Emergencias SENAPRED | SENAPRED (ex ONEMI): plan de emergencia municipal, sistema de alerta temprana, RRSS | Municipio / Coordinador emergencia | Claude |
+| 89 | Emergencias incendios | Incendios forestales: CONAF SNMF, temporada incendios, cortafuegos, drones de vigilancia | CONAF / Bomberos | Claude |
+| 90 | Emergencias terremotos | Plan de emergencia ante terremotos: mapa de riesgo sísmico, protocolo empresa, SHOA tsunamis | Empresa / Municipio | Claude |
+| 91 | Blockchain | Blockchain en supply chain frutícola: trazabilidad cereza-China con Ethereum/Hyperledger | AgTech / Exportador | Claude |
+| 92 | Blockchain | Tokenización de activos inmobiliarios en Chile: marco CMF, inversión fraccionada digital | PropTech / Abogado | Claude |
+| 93 | Robótica | Robots en packing agrícola: sistemas de visión, clasificación de fruta, ROI para temporada | AgTech / Empresa packing | Claude |
+| 94 | Robótica | Automatización minera: camiones autónomos (Komatsu AHS) en Codelco — integración | Ingeniero minero / Codelco | Claude |
+| 95 | Drones DGAC | Drones en Chile: DGAC autorización de vuelo, zonas restringidas, operador UAS certificado | Empresa drones / Piloto | Claude |
+| 96 | Drones | Drones en viticultura: monitoreo NDVI, identificación de estrés hídrico, mapa de vigor | Viticultor / Agrónomo | Claude |
+| 97 | Política IA | Política Nacional de IA Chile 2021: principios éticos, gobernanza, plan de acción 2022-2026 | Funcionario / Consultor IA | Claude |
+| 98 | Política IA | IA ética en el sector público chileno: sesgos algorítmicos, transparencia, accountability | Gobierno / ONG | Claude |
+| 99 | Finanzas | Bolsa de Santiago: renta variable, renta fija, fondos mutuos — estrategia de inversión | Inversionista / Corredor | Claude |
+| 100 | Finanzas | Hipotecario en UF: indexación, prepago, crédito con subsidio DS 1/DS 49 MINVU | Familia / Banco | Claude |
+| 101 | Salud | Medicina de precisión: genómica en Chile, proyecto Genome Chile, oncología personalizada | Médico oncólogo / Investigador | Claude |
+| 102 | Educación | Ranking QS universidades chilenas: U Chile/PUC/USACH — investigación, internacionalización | Rector / Académico | Claude |
+| 103 | Agro | Vino chileno: certificación Wines of Chile, mercado UK post-Brexit, puntajes especializados | Bodega / Exportador vino | Claude |
+| 104 | Logística | Paso Los Libertadores: logística de exportación de fruta hacia Argentina/Brasil por tierra | Transportista / Exportador | Claude |
+| 105 | Turismo | Turismo de bienestar: termas, spa rural, circuito wellness en Valparaíso/Araucanía | Operador turismo bienestar | Claude |
+| 106 | Construcción | MINVU: subsidio habitacional D.S. 1 para clase media, postulación, constructora habilitada | Familia / Constructora | Claude |
+| 107 | Construcción | BIM (Building Information Modeling) en proyectos MOP Chile: Estándar BIM Chile, licitación | Arquitecto / Constructora | Claude |
+| 108 | Industria | CORFO: subsidio a la innovación (ITP — Instrumento Tecnológico Productivo), postulación | Empresa industrial / Consultor | Claude |
+| 109 | Industria | Plan de transformación digital PyME: CORFO Digitaliza, ERP en la nube, diagnóstico digital | Dueño PyME / Consultor | Claude |
+| 110 | Gobierno | Compras públicas Chile: Mercado Público (mercadopublico.cl) — licitaciones, convenio marco | Proveedor del Estado / Empresa | Claude |
+| 111 | Pesca | Pesca artesanal: SERNAPESCA, cuota artesanal de merluza/jibia, CALAMAR Magallanes | Pescador artesanal / SERNAPESCA | Claude |
+| 112 | Acuicultura | Mejillones y ostras: concesiones acuícolas, SERNAPESCA, mercado gourmet Europa | Acuicultor / Exportador | Claude |
+| 113 | Tech | Ciberseguridad en Chile: CSIRT de Gobierno (Ley 21.663), protección de infraestructura crítica | CISO / Empresa | Claude |
+
+---
+
+## Recursos Clave para Chile
+
+### Organismos y Plataformas Regulatorias
+- **SII** (sii.cl): Servicio de Impuestos Internos — factura electrónica, renta, IVA, F22
+- **CMF** (cmfchile.cl): Comisión para el Mercado Financiero — bancos, seguros, valores
+- **SAG** (sag.gob.cl): Servicio Agrícola y Ganadero — sanidad vegetal/animal, exportación
+- **SERNAPESCA** (sernapesca.cl): Regulación acuicultura, pesca, bienestar animal acuático
+- **SERNAGEOMIN** (sernageomin.cl): Seguridad minera, concesiones, geología
+- **DGA** (dga.cl): Derechos de agua, cuencas, Ley de Aguas 21.435
+- **CONAF** (conaf.cl): Patrimonio silvestre, incendios forestales, parques nacionales
+- **CORFO** (corfo.cl): Fomento productivo, Start-Up Chile, financiamiento, subsidios
+- **INAPI** (inapi.cl): Registro de marcas, patentes, variedades vegetales
+- **SERNAC** (sernac.cl): Defensa del consumidor, mediaciones, denuncias
+- **Mercado Público** (mercadopublico.cl): Compras y licitaciones del Estado
+- **CNE** (cne.cl): Comisión Nacional de Energía — tarifas, licitaciones ERNC, regulación
+
+### Herramientas de IA Recomendadas para Chile
+- **Claude** (claude.ai): Análisis regulatorio, redacción de contratos, estrategia empresarial
+- **ChatGPT** (chatgpt.com): Contenido en español, automatización de procesos, atención al cliente
+- **Gemini** (gemini.google.com): Google Workspace, análisis de datos, Maps para logística
+- **Perplexity** (perplexity.ai): Investigación de normativa actualizada, precios de commodities
+
+### Normativa Clave Vigente
+| Norma | Descripción |
+|-------|-------------|
+| Ley 21.521 | Ley Fintech — open banking, proveedores servicios financieros, CMF |
+| Ley 21.561 | Reducción jornada laboral a 40 horas semanales (vigente 2024-2028) |
+| Ley 21.220 | Teletrabajo — contrato especial, desconexión digital |
+| Ley 21.180 | Transformación Digital del Estado — Ley de Digitalización |
+| Ley 21.331 | Derechos de las personas en atención de salud mental |
+| Ley 20.936 | Transmisión eléctrica y net metering solar residencial |
+| Ley 20.920 | REP — Responsabilidad Extendida del Productor (envases/RAEE) |
+| Ley 19.496 | Ley del Consumidor (SERNAC) |
+| Ley 20.848 | Marco para la inversión extranjera directa en Chile |
+| Política Nacional IA | Marco de ética y gobernanza de IA (MINCIENCIA, 2021/2024) |
+
+### Ecosistema de Startups y Fondos VC en Chile
+| Organismo | Descripción |
+|-----------|-------------|
+| Start-Up Chile (CORFO) | Aceleradora pública, USD 100K-150K no dilutivos, red 2.500+ alumni |
+| Fen Ventures | Fondo VC chileno early stage, sectores agritech/fintech/climatetech |
+| ALLVP | Fondo VC LatAm con base en Chile, Series A/B |
+| Austral Capital | Fondo VC chileno, inversión en startups regionales |
+| IDB Lab | BID para innovación y startups en LatAm |
+| Endeavor Chile | Apoyo a emprendedores de alto impacto, red global |
+
+### Sectores Prioritarios Política Nacional de IA Chile
+| Sector | Prioridad IA |
+|--------|-------------|
+| Minería | Optimización operativa, seguridad, medio ambiente |
+| Salud | Diagnóstico, telemedicina, gestión hospitalaria |
+| Agricultura | Precisión, trazabilidad, exportación |
+| Educación | Personalización, acceso, calidad docente |
+| Energía | Redes inteligentes, H2 verde, gestión demanda |
+| Gobierno | Trámites digitales, datos abiertos, transparencia |
+
+---
+
+*Documento creado con fines educativos para profesionales y empresas en Chile.*
+*Actualizado: 2026 | Maestros AI — maestrosai.com*
