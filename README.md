@@ -1,6 +1,7 @@
 <div align="center">
 
 ![AI Playbook — LATAMC]([./images/ai-playbook-cover.png](https://github.com/caribbeanai/aiplaybook/blob/master/AI%20Playbook%20for%20Caribbean%20and%20LATAM%20Micro%20and%20Small%20Businesses.jpg))
+![AI Playbook for Caribbean and LATAM Micro and Small Businesses](https://github.com/user-attachments/assets/53f2a69a-c947-4cd1-8d12-75e7d3d425b1)
 
 # The Definitive AI Playbook for LATAMC
 
