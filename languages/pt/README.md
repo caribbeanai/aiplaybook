@@ -229,6 +229,175 @@ Para recursos em holandês para o Suriname:
 
 ---
 
+---
+
+## Casos de Uso de IA para Pais e Cuidado Infantil
+
+> **Guia completo**: [Ver Parenting & Childcare em inglês](../../sectors/parenting-and-childcare.md)
+
+*Esta secção foi criada por **Adrian Dunkley** — fundador neurodivergente da primeira empresa de IA do Caribe — e é dedicada aos seus pais, que o criaram com amor, paciência e fé inabalável.*
+
+> ⚠️ **Aviso importante**: Estas ferramentas de IA são um complemento, não um substituto para aconselhamento médico, psicológico ou educativo profissional. Perante qualquer preocupação séria sobre a saúde ou o desenvolvimento do seu filho, consulte sempre um profissional qualificado.
+
+---
+
+### 1. "O Co-Piloto do Sono" — Rotinas de Sono Infantil
+**Cenário**: O seu filho/a não dorme bem e você está esgotado/a. Precisa de um plano concreto e baseado em evidências.
+
+**Base científica**: Diretrizes da Academia Americana de Pediatria; pesquisa de Mindell et al. (2006) sobre intervenções comportamentais do sono.
+
+```
+Você é um assistente especializado em sono infantil baseado em evidências científicas.
+Preciso de ajuda para criar uma rotina de sono personalizada.
+
+Minha situação:
+- Idade da criança: [ex. 18 meses / 3 anos / 6 anos]
+- Problemas atuais de sono: [ex. não dorme sozinha / acorda várias vezes / resiste na hora de dormir]
+- Rotina atual: [descreva o que faz agora]
+- Ambiente de sono: [ex. quarto próprio / divide quarto com irmão/ã]
+- Tolerância ao choro: [ex. prefiro sem choro / algum é aceitável / aberto a métodos graduais]
+
+Por favor, forneça:
+1. Uma rotina passo a passo para esta noite (com horários aproximados)
+2. Por que cada etapa funciona (ciência do sono infantil)
+3. Um plano de implementação gradual de 2 semanas
+4. O que esperar nas primeiras noites (incluindo a parte difícil)
+5. Sinais para consultar o pediatra
+
+Tom: acolhedor, prático e sem julgamentos. Lembre-me que não existe um único método certo.
+```
+
+---
+
+### 2. "Sem Drama na Mesa" — Crianças com Alimentação Seletiva
+**Cenário**: As refeições viraram uma batalha. O seu filho/a recusa quase tudo.
+
+**Base científica**: Divisão de Responsabilidade na Alimentação de Satter (1986); pesquisa de Birch e Fisher sobre neofobia alimentar em crianças.
+
+```
+Você é um especialista em terapia de alimentação familiar. Preciso de estratégias
+práticas e baseadas em evidências para lidar com a alimentação seletiva do meu filho/a.
+
+Minha situação:
+- Idade da criança: [ex. 3 anos / 7 anos]
+- O que come: [lista de alimentos aceitos]
+- O que recusa: [tipos de alimentos rejeitados]
+- Como são as refeições: [ex. choro, birra, sai da mesa]
+- O que já tentei: [ex. esconder legumes, recompensas, pressão]
+- Alguma condição especial: [ex. sensorial, autismo, nenhuma conhecida]
+
+Por favor, forneça:
+1. Explicação da Divisão de Responsabilidade de Satter e como aplicá-la
+2. Uma abordagem de 30 dias para melhorar as refeições gradualmente
+3. Um cardápio de 5 dias que inclua preferências e novas exposições
+4. Frases para falar sobre comida sem pressão ou vergonha
+5. Sinais de alerta para consultar um especialista em alimentação
+
+Tom: sem culpa. Estou fazendo o meu melhor.
+```
+
+---
+
+### 3. "Conectado de Forma Diferente, Amado Completamente" — Apoio a Crianças Neurodivergentes
+**Cenário**: Seu filho/a tem ou suspeita-se que tem TDAH, condição do espectro autista ou outra diferença do neurodesenvolvimento.
+
+**Base científica**: Diretrizes CHADD; pesquisa de Barkley (2015) sobre TDAH; pesquisa de Baron-Cohen sobre neurodiversidade; Prizant (2015) "Uniquely Human".
+
+*Nota do autor: Adrian Dunkley é neurodivergente. Cresceu com dificuldades de aprendizagem — ler demorava mais, se concentrar era uma batalha. Os seus pais o criaram com amor e paciência, sem ter o vocabulário nem os recursos disponíveis hoje. Esta secção é para cada pai nessa mesma situação.*
+
+```
+Você é um especialista em suporte neurodivergente com experiência em TDAH, autismo e
+condições relacionadas. Preciso de orientação compassiva e baseada em evidências.
+
+Minha situação:
+- Idade da criança: [ex. 6 anos / 12 anos]
+- Diagnóstico ou condição suspeita: [ex. TDAH / TEA / sem diagnóstico mas preocupado/a]
+- Como se manifesta em casa: [ex. crises intensas / não consegue ficar parado / sensibilidade sensorial / rotinas rígidas]
+- Como se manifesta na escola: [se souber]
+- O que ajuda atualmente: [ex. agendas visuais, fones, nada ainda]
+- Minha maior preocupação agora: [ex. autoestima / medicação / comportamento / amizades]
+
+Por favor, forneça:
+1. Explicação compassiva e baseada em pontos fortes da condição
+2. Adaptações no ambiente doméstico que reduzem o estresse
+3. Estratégias de comunicação que funcionam com a neurologia do meu filho/a
+4. Como trabalhar com a escola para garantir apoios e adaptações
+5. Diferença entre uma crise e uma birra — e como responder a cada uma
+6. Como falar com meu filho/a sobre sua identidade neurodivergente de forma positiva
+7. Recursos de autocuidado para pais
+
+Nota: esta é uma ferramenta de apoio, não um diagnóstico. Para avaliação formal,
+consulte um psicólogo ou pediatra do desenvolvimento.
+```
+
+---
+
+### 4. "Conversas Difíceis com Amor" — Tópicos Complexos com os Filhos
+**Cenário**: Algo difícil aconteceu — uma morte, separação, um evento assustador — e precisa conversar com o seu filho/a. Não sabe por onde começar.
+
+**Base científica**: Pesquisa de Speece & Brent sobre a compreensão infantil da morte; Worden (1996) sobre luto infantil; orientações da AAP sobre racismo e eventos difíceis.
+
+```
+Você é um especialista em desenvolvimento infantil com experiência em conversas difíceis.
+Preciso de orientação para conversar com meu filho/a sobre algo complicado.
+
+Minha situação:
+- Idade da criança: [ex. 5 anos / 10 anos / 14 anos]
+- O assunto a abordar: [ex. morte de um avô/ó / separação dos pais / evento violento nas notícias / racismo que meu filho/a vivenciou / doença grave na família]
+- O que meu filho/a já sabe ou viu: [descreva]
+- Como reagiu até agora: [ex. fazendo muitas perguntas / calado/a / pesadelos / comportamento diferente]
+- Como estou emocionalmente: [honesto/a — ex. também estou sofrendo / tentando manter a calma]
+
+Por favor, forneça:
+1. O que crianças dessa idade entendem sobre esse tema (desenvolvimento)
+2. O que dizer — um roteiro para iniciar a conversa
+3. O que NÃO dizer — frases bem-intencionadas que podem confundir
+4. Como responder a perguntas sem resposta fácil
+5. Como apoiar o processamento emocional nas próximas semanas
+6. Livros ou recursos para crianças sobre esse tema
+7. Sinais de que meu filho/a precisa de apoio profissional
+
+Lembre-me: não existe uma forma perfeita de ter essa conversa. O que importa é estar presente.
+```
+
+---
+
+### 5. "A Estação de Recarga dos Pais" — Autocuidado e Esgotamento Parental
+**Cenário**: Você está esgotado/a. Ama o seu filho/a mas não aguenta mais. Precisa de um plano real, não de conselhos impossíveis.
+
+**Base científica**: Pesquisa de Mikolajczak et al. (2019, 2023) sobre burnout parental; pesquisa de Neff (2011) sobre autocompaixão; ACEs e bem-estar parental.
+
+```
+Você é um especialista em bem-estar parental e recuperação do burnout.
+Preciso de apoio prático e honesto — não frases vazias, mas estratégias reais.
+
+Minha situação:
+- Minha situação familiar: [ex. mãe/pai solo/a / parceiro/a trabalha fora / cuidador/a principal]
+- Número e idades dos filhos: [ex. três filhos de 2, 5 e 8 anos]
+- Como o esgotamento se manifesta: [ex. cansaço constante / ressentimento que me causa culpa / perda de paciência / sentir-me desconectado/a do meu filho/a]
+- Apoio disponível: [ex. sem família por perto / algum apoio familiar / parceiro/a compreensivo/a / situação financeira difícil]
+- O que posso comprometer de forma realista: [ex. 10 minutos por dia / quase nada agora]
+
+Por favor, forneça:
+1. O que é o burnout parental — e por que não é uma fraqueza de caráter (com evidências)
+2. Um plano de autocuidado realista para 30 dias
+3. Estratégias de micro-recuperação para os momentos entre o caos (2-5 minutos)
+4. Como pedir ajuda — frases para pedir ao/à parceiro/a, família ou amigos
+5. A relação entre cuidar de mim e cuidar melhor do meu filho/a
+6. Quando o burnout parental requer apoio profissional
+
+Lembre-me: não se pode dar o que não se tem. Cuidar de si é cuidar do seu filho/a.
+```
+
+---
+
+**[Ver todos os 20 casos de uso completos em inglês →](../../sectors/parenting-and-childcare.md)**
+
+*Criado por **Adrian Dunkley** | MaestrosAI | ceo@maestrosai.com | [maestrosai.com](https://maestrosai.com)*
+*Dedicado aos seus pais, por criarem um filho neurodivergente com amor inabalável.*
+
+---
+
 *Criado por Adrian Dunkley | MaestrosAI | maestrosai.com | ceo@maestrosai.com*
 *Uso Justo — Recurso Educacional | Março 2026*
 *SEO: IA para empresas Brasil | casos de uso IA Brasil | inteligência artificial pequenas empresas | ferramentas IA Brasil | prompts IA negócios | ChatGPT para empresas brasileiras | Claude para negócios Brasil | LGPD IA | agronegócio IA*

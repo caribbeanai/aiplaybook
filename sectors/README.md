@@ -22,3 +22,4 @@
 | [Technology & Startups](./technology.md) | Mexico, Colombia, Brazil, Argentina, Chile, Costa Rica | [View](./technology.md) |
 | [Logistics & Supply Chain](./logistics.md) | Panama, Jamaica, Colombia, Brazil | [View](./logistics.md) |
 | [Creative Industries & Media](./creative-industries.md) | Jamaica, T&T, Brazil, Colombia | [View](./creative-industries.md) |
+| [Parenting & Childcare](./parenting-and-childcare.md) | All regions | [View](./parenting-and-childcare.md) |

@@ -93,16 +93,19 @@ This is the **most comprehensive collection of AI use cases, prompt structures, 
 
 ## Quick Navigation
 
-| Region | Countries | Use Cases |
-|--------|-----------|-----------|
-| [Caribbean](./countries/caribbean/README.md) | 20 countries & territories | 2,000+ |
-| [Latin America](./countries/latin-america/README.md) | 18 countries | 1,800+ |
-| [Sectors](./sectors/README.md) | 12 key sectors | Cross-regional |
-| [AI Risks](./risks/README.md) | All sectors | Risk frameworks |
-| [Claude Skills](./skills/README.md) | Small business focus | 50+ skills |
+| Resource | Description | Link |
+|----------|-------------|------|
+| **[Practical Guide — Part I](./guide/part-1.md)** | How to make AI work for your small business | [Read](./guide/part-1.md) |
+| **[Context Prompt Template](./guide/context-prompt.md)** | Your regional AI context — all 5 languages | [Build Yours](./guide/context-prompt.md) |
+| **[Knowledge Base Template](./guide/knowledge-base.md)** | Your business knowledge base — all 5 languages | [Build Yours](./guide/knowledge-base.md) |
+| [Caribbean](./countries/caribbean/README.md) | 20 countries & territories | [View](./countries/caribbean/README.md) |
+| [Latin America](./countries/latin-america/README.md) | 18 countries | [View](./countries/latin-america/README.md) |
+| [Sectors](./sectors/README.md) | 13 key sectors | [View](./sectors/README.md) |
+| [AI Risks](./risks/README.md) | All sectors | [View](./risks/README.md) |
+| [Claude Skills](./skills/README.md) | Small business focus | [View](./skills/README.md) |
 | [AI Rankings](./rankings/README.md) | All countries | Coming Soon |
-| [En Español](./languages/es/README.md) | Todos los países | Versión completa |
-| [Em Português](./languages/pt/README.md) | Brasil e mais | Versão completa |
+| [En Español](./languages/es/README.md) | Todos los países | [Ver](./languages/es/README.md) |
+| [Em Português](./languages/pt/README.md) | Brasil e mais | [Ver](./languages/pt/README.md) |
 
 ---
 
