@@ -12,7 +12,7 @@
 *Gid definitif sou AI pou biznis ak moun nan tout Amerik Latin ak Karayib la.*
 *De definitieve AI-gids voor bedrijven en particulieren in heel Latijns-Amerika en het Caribisch gebied.*
 
-**Created by Adrian Dunkley** | Founder, First AI Company in the Caribbean | Regional AI Expert
+**Created by Adrian Dunkley** | Co-founder, Maestro AI Labs | Founder, First AI Company in the Caribbean, StarApple AI 
 **Email**: ceo@maestrosai.com | **Website**: [adriandunkley.net](https://adriandunkley.net)
 
 </div>
