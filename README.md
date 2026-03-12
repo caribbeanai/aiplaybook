@@ -13,7 +13,7 @@
 *De definitieve AI-gids voor bedrijven en particulieren in heel Latijns-Amerika en het Caribisch gebied.*
 
 **Created by Adrian Dunkley** | Founder, First AI Company in the Caribbean | Regional AI Expert
-**Email**: ceo@maestrosai.com | **Website**: [adriandunkley.net]([https://adriandunkley.net/])
+**Email**: ceo@maestrosai.com | **Website**: [adriandunkley.net]([https://adriandunkley.net])
 
 </div>
 
