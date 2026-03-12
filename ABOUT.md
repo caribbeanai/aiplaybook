@@ -18,7 +18,7 @@ Adrian's journey began in physics — the discipline of understanding how the un
 
 ### Pioneer in Caribbean AI
 
-When Adrian founded **MaestrosAI** ([maestrosai.com](https://maestrosai.com)), it became the Caribbean's first dedicated AI company — at a time when most of the region had never heard of machine learning, let alone deployed AI in business operations. Today, MaestrosAI serves clients across:
+When Adrian founded **StarApple AI** ([starappleai.org](https://starappleai.org)), it became the Caribbean's first AI company — at a time when most of the region had never heard of machine learning, let alone deployed AI in business operations. Today, MaestrosAI serves clients across:
 
 - Jamaica
 - Trinidad and Tobago
@@ -89,9 +89,9 @@ With over **15 years of experience** in Artificial Intelligence, Adrian has witn
 
 ---
 
-## MaestrosAI — The Company
+## StarApple AI — The Company
 
-**MaestrosAI** is the Caribbean's leading Artificial Intelligence company, founded by Adrian Dunkley. The company's mission is to:
+**StarApple AI** is the Caribbean's first Artificial Intelligence company, founded by Adrian Dunkley. The company's mission is to:
 
 1. **Democratize AI access** across the Caribbean and Latin America
 2. **Build AI capacity** in local businesses, governments, and institutions
